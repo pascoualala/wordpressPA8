@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - Jetpack by WordPress.com - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2017-10-04 06:26:12+0000\n"
+"PO-Revision-Date: 2017-10-11 17:07:50+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -4931,7 +4931,7 @@ msgstr "Para una defensa contra el spam de calidad profesional por favor {{a}}in
 
 #: _inc/jetpack-strings.php:48
 msgid "For state-of-the-art spam defense, please {{a}}activate Akismet{{/a}}."
-msgstr "Si quieres un protector contra el spas que esté a la última, {{a}}activa Akismet{{a}}."
+msgstr "Si quieres un protector contra el spam que esté a la última, {{a}}activa Akismet{{a}}."
 
 #: _inc/jetpack-strings.php:47
 msgid "Invalid key"

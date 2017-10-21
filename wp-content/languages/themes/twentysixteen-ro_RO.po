@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Themes - Twenty Sixteen package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2017-06-25 14:23:48+0000\n"
+"PO-Revision-Date: 2017-10-13 16:31:44+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -66,7 +66,7 @@ msgstr "Meniu principal subsol"
 
 #: functions.php:158
 msgid "Add widgets here to appear in your sidebar."
-msgstr "Adaugă piese aici pentru a apărea în bara ta laterală."
+msgstr "Adaugă piese aici ca să apară în bara ta laterală."
 
 #: template-parts/content.php:14
 msgid "Featured"
@@ -290,9 +290,9 @@ msgstr "Comentariile sunt închise."
 msgctxt "comments title"
 msgid "%1$s thought on &ldquo;%2$s&rdquo;"
 msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
-msgstr[0] "%1$s gând despre &ldquo;%2$s&rdquo;"
-msgstr[1] "%1$s gânduri despre &ldquo;%2$s&rdquo;"
-msgstr[2] "%1$s de gânduri despre &ldquo;%2$s&rdquo;"
+msgstr[0] "%1$s comentariu la &bdquo;%2$s&rdquo;"
+msgstr[1] "%1$s comentarii la &bdquo;%2$s&rdquo;"
+msgstr[2] "%1$s de comentarii la &bdquo;%2$s&rdquo;"
 
 #: archive.php:51 image.php:60 index.php:48 search.php:39
 #: template-parts/content-page.php:27 template-parts/content-single.php:29

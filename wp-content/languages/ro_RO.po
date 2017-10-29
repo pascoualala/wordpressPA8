@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 4.8.x package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2017-10-09 18:28:25+0000\n"
+"PO-Revision-Date: 2017-10-27 17:03:03+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -5991,7 +5991,7 @@ msgstr "Vedere ca grilă"
 
 #: wp-includes/media-template.php:255
 msgid "List View"
-msgstr "Vedere ca listă"
+msgstr "Vizualizare ca listă"
 
 #. translators: 1: suggested width number, 2: suggested height number.
 #: wp-includes/media-template.php:240 wp-includes/media.php:3572
@@ -9748,15 +9748,15 @@ msgstr "Justificat"
 
 #: wp-includes/class-wp-editor.php:1034
 msgid "Align left"
-msgstr "Aliniere stânga"
+msgstr "Aliniază la stânga"
 
 #: wp-includes/class-wp-editor.php:1033
 msgid "Align right"
-msgstr "Aliniere dreapta"
+msgstr "Aliniază la dreapta"
 
 #: wp-includes/class-wp-editor.php:1032
 msgid "Align center"
-msgstr "Aliniere centru"
+msgstr "Aliniază la centru"
 
 #: wp-includes/class-wp-editor.php:1030
 msgid "Font Sizes"

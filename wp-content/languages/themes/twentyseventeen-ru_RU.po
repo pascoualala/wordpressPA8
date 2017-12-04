@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Themes - Twenty Seventeen package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2017-09-16 18:21:50+0000\n"
+"PO-Revision-Date: 2017-11-11 14:48:39+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -92,7 +92,7 @@ msgstr "<span class=\"screen-reader-text\">Опубликовано</span> %s"
 #. translators: %s: post author
 #: inc/template-tags.php:21
 msgid "by %s"
-msgstr "автором %s"
+msgstr "Автор: %s"
 
 #: inc/icon-functions.php:44
 msgid "Please define an SVG icon filename."
@@ -170,7 +170,7 @@ msgstr "Верхнее меню"
 
 #: comments.php:60
 msgid "Reply"
-msgstr "Ответ"
+msgstr "Ответить"
 
 #: template-parts/post/content-none.php:27
 msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
@@ -286,7 +286,7 @@ msgstr "Меню социальных ссылок в подвале"
 
 #: comments.php:75
 msgid "Comments are closed."
-msgstr "Комментарии запрещены."
+msgstr "Обсуждение закрыто."
 
 #. translators: 1: number of comments, 2: post title
 #: comments.php:40

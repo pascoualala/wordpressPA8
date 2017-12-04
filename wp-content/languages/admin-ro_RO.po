@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 4.8.x - Administration package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2017-10-17 12:16:26+0000\n"
+"PO-Revision-Date: 2017-11-03 16:57:37+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -7240,7 +7240,7 @@ msgstr "Salvez&hellip;"
 #: wp-admin/includes/class-wp-press-this.php:1525
 #: wp-admin/includes/meta-boxes.php:275 wp-admin/includes/meta-boxes.php:276
 msgid "Submit for Review"
-msgstr "Trimite pentru aprobare"
+msgstr "Trimite pentru verificare"
 
 #: wp-admin/includes/class-wp-press-this.php:1483
 #: wp-admin/includes/class-wp-press-this.php:1494
@@ -7250,7 +7250,7 @@ msgstr "Înapoi la opțiuni articol"
 
 #: wp-admin/includes/class-wp-press-this.php:1416
 msgid "Suggested media"
-msgstr "Recomandare media"
+msgstr "Media recomandată"
 
 #: wp-admin/includes/class-wp-press-this.php:1411
 #: wp-admin/includes/class-wp-press-this.php:1412
@@ -7267,7 +7267,7 @@ msgstr "Scanează"
 
 #: wp-admin/includes/class-wp-press-this.php:1374
 msgid "Enter a URL to scan"
-msgstr "Introdu un URL pentru scanare"
+msgstr "Introdu un URL pentru a-l scana"
 
 #: wp-admin/includes/class-wp-press-this.php:1373
 msgid "Scan site for content"
@@ -7300,7 +7300,7 @@ msgstr "Caută categorii după nume"
 
 #: wp-admin/includes/class-wp-press-this.php:887
 msgid "Toggle add category"
-msgstr "Comută adăugare categorie"
+msgstr "Comută la adaugă categorie"
 
 #: wp-admin/includes/class-wp-press-this.php:845
 #: wp-admin/includes/meta-boxes.php:391 wp-admin/includes/theme.php:263
@@ -10780,7 +10780,7 @@ msgstr "Îți mulțumim că ai ales să creezi cu <a href=\"%s\">WordPress</a>."
 
 #. translators: 1: WordPress version number, 2: plural number of bugs. Singular
 #. security issue.
-#: wp-admin/about.php:263
+#: wp-admin/about.php:270
 msgid "<strong>Version %1$s</strong> addressed a security issue and fixed %2$s bug."
 msgid_plural "<strong>Version %1$s</strong> addressed a security issue and fixed %2$s bugs."
 msgstr[0] "<strong>Versiunea %1$s</strong> a rezolvat o problemă de securitate și %2$s eroare."
@@ -10788,166 +10788,166 @@ msgstr[1] "<strong>Versiunea %1$s</strong> a rezolvat o problemă de securitate 
 msgstr[2] "<strong>Versiunea %1$s</strong> a rezolvat o problemă de securitate și %2$s de erori."
 
 #. translators: %s: WordPress version number
-#: wp-admin/about.php:256
+#: wp-admin/about.php:263
 msgid "<strong>Version %s</strong> addressed some security issues."
 msgstr "<strong>Versiunea %s</strong> a rezolvat câteva probleme de securitate."
 
 #. translators: %s: WordPress version number
-#: wp-admin/about.php:254
+#: wp-admin/about.php:52 wp-admin/about.php:261
 msgid "<strong>Version %s</strong> addressed one security issue."
 msgstr "<strong>Versiunea %s</strong> a rezolvat o problemă de securitate."
 
-#: wp-admin/about.php:250
+#: wp-admin/about.php:257
 msgid "Maintenance and Security Release"
 msgstr "Actualizare de mentenanță și securitate"
 
-#: wp-admin/about.php:248
+#: wp-admin/about.php:255
 msgid "Security Releases"
 msgstr "Lansări de securitate"
 
-#: wp-admin/about.php:247
+#: wp-admin/about.php:254
 msgid "Security Release"
 msgstr "Actualizare de securitate"
 
-#: wp-admin/about.php:245
+#: wp-admin/about.php:252
 msgid "Maintenance Releases"
 msgstr "Lansări de mentenanță"
 
-#: wp-admin/about.php:244
+#: wp-admin/about.php:251
 msgid "Maintenance Release"
 msgstr "Actualizare de mentenanță"
 
-#: wp-admin/about.php:233
+#: wp-admin/about.php:240
 msgid "Go to Dashboard"
 msgstr "Mergi la panoul de control"
 
-#: wp-admin/about.php:233
+#: wp-admin/about.php:240
 msgid "Go to Dashboard &rarr; Home"
 msgstr "Mergi la Panou control &rarr; Prima pagină"
 
-#: wp-admin/about.php:230
+#: wp-admin/about.php:237
 msgid "Return to Dashboard &rarr; Updates"
 msgstr "Înapoi la Panou control &rarr; Actualizări"
 
-#: wp-admin/about.php:230
+#: wp-admin/about.php:237
 msgid "Return to Updates"
 msgstr "Înapoi la actualizări"
 
-#: wp-admin/about.php:220
+#: wp-admin/about.php:227
 msgid "Rejoice! New responsive breakpoints have been added to the customizer sidebar to make it wider on high-resolution screens. Customizer controls should use percentage-based widths instead of pixels."
 msgstr "Bucură-te! Au fost adăugate puncte noi de comutare responsivă în bara laterală a personalizatorului pentru a-l face mai lat pe ecranele cu rezoluție mare. Comenzile personalizatorului ar trebui să folosească lățimi bazate pe procente în loc de pixeli."
 
-#: wp-admin/about.php:219
+#: wp-admin/about.php:226
 msgid "Customizer Width Variable"
 msgstr "Lățime variabilă pentru personalizator"
 
-#: wp-admin/about.php:216
+#: wp-admin/about.php:223
 msgid "The introduction of a new base media widget REST API schema to 4.8 opens up possibilities for even more media widgets (like galleries or playlists) in the future. The three new media widgets are powered by a shared base class that covers most of the interactions with the media modal. That class also makes it easier to create new media widgets and paves the way for more to come."
 msgstr "Introducerea în 4.8 a unei scheme REST API pentru noua piesă media de bază deschide acum posibilități pentru și mai multe piese media pe viitor (cum ar fi galerii sau liste de redare). Cele trei piese media noi sunt propulsate de o clasă de bază comună care acoperă majoritatea interacțiunilor cu un modal media. Această clasă ușurează de asemenea crearea de noi piese media și deschide calea spre și mai multe pe viitor."
 
-#: wp-admin/about.php:215
+#: wp-admin/about.php:222
 msgid "Media Widgets API"
 msgstr "API piese media"
 
-#: wp-admin/about.php:212
+#: wp-admin/about.php:219
 msgid "With the addition of TinyMCE to the text widget in 4.8 comes a new JavaScript API for instantiating the editor after page load. This can be used to add an editor instance to any text area, and customize it with buttons and functions. Great for plugin authors!"
 msgstr "Prin adăugarea lui TinyMCE la piesa text în 4.8 apare un nou JavaScript API pentru instanțierea editorului după încărcarea paginii. Acesta poate fi folosit pentru a adăuga o instanță de editor oricărei zone de text și pentru a o personaliza cu butoane și funcții. Excelent pentru autorii de module!"
 
-#: wp-admin/about.php:211
+#: wp-admin/about.php:218
 msgid "Text-Editor JavaScript API"
 msgstr "JavaScript API pentru editor text"
 
-#: wp-admin/about.php:208
+#: wp-admin/about.php:215
 msgid "New capabilities have been introduced to 4.8 with an eye towards removing calls to <code>is_super_admin()</code>. Additionally, new hooks and tweaks to more granularly control site and user counts per network have been added."
 msgstr "În 4.8 au fost introduse capabilități noi cu scopul de a înlătura apelările către <code>is_super_admin()</code>. În plus, au fost adăugate cârlige noi și ajustări fine pentru a controla situl în detaliu precum și numărarea utilizatorilor per rețea."
 
-#: wp-admin/about.php:207
+#: wp-admin/about.php:214
 msgid "Multisite Updates"
 msgstr "Actualizări multi-sit"
 
-#: wp-admin/about.php:204
+#: wp-admin/about.php:211
 msgid "As fewer and fewer browsers support Silverlight, file formats which require the presence of the Silverlight plugin are being removed from core support. Files will still display as a download link, but will no longer be embedded automatically."
 msgstr "Deoarece tot mai puține navigatoare oferă suport Silverlight, formatele de fișier care necesită prezența modulului Silverlight sunt înlăturate din suportul nucleului. Fișierele vor fi afișate în continuare ca o legătură de descărcare, dar nu vor mai fi înglobate automat."
 
-#: wp-admin/about.php:203
+#: wp-admin/about.php:210
 msgid "Removal of Core Support for WMV and WMA Files"
 msgstr "Înlăturarea suportului nucleului pentru fișiere WMV și WMA"
 
-#: wp-admin/about.php:200
+#: wp-admin/about.php:207
 msgid "New CSS rules mean extraneous content (like &ldquo;Add New&rdquo; links) no longer need to be included in admin-area headings. These panel headings improve the experience for people using assistive technologies."
 msgstr "Noi reguli CSS înseamnă că un conținut extern (cum ar fi o legătură &bdquo;Adaugă nou&rdquo;) nu mai trebuie să fie incluse în antetele zonelor administrative. Aceste antete de panouri oferă acum o experiența îmbunătățită persoanelor care folosesc tehnologii asistențiale."
 
-#: wp-admin/about.php:199
+#: wp-admin/about.php:206
 msgid "More Accessible Admin Panel Headings"
 msgstr "Antete mai accesibile ale panourilor de administrare"
 
 #. translators: %s: smiling face with smiling eyes emoji
-#: wp-admin/about.php:192
+#: wp-admin/about.php:199
 msgid "Even More Developer Happiness %s"
 msgstr "Și mai multă fericire pentru dezvoltator %s"
 
-#: wp-admin/about.php:163
+#: wp-admin/about.php:170
 msgid "Being part of the community can help you improve your WordPress skills and network with people you wouldn&#8217;t otherwise meet. Now you can easily find your local events just by logging in to your dashboard and looking at the new Events and News dashboard widget."
 msgstr "Să faci parte din comunitate te poate ajuta în a-ți îmbunătăți cunoștințele de WordPress și a putea să intri în legătură cu persoane pe care nu le-ai fi putut întâlni altfel. Acum poți găsi cu ușurință evenimente locale doar prin autentificarea în panoul tău de control și privind piesa evenimente și știri."
 
-#: wp-admin/about.php:161
+#: wp-admin/about.php:168
 msgid "This is quickly becoming one of our favorite features. While you are in the dashboard (because you&#8217;re running updates and writing posts, right?) all upcoming WordCamps and WordPress Meetups &mdash; local to you &mdash; will be displayed."
 msgstr "Aceasta devine rapid una dintre funcționalitățile noastre preferate. În timp ce ești în panoul de control (deoarece faci actualizări și scrii articole, nu-i așa?) vor fi afișate toate WordCamp-urile și Meetup-urile WordPress viitoare &mdash; din apropierea ta."
 
-#: wp-admin/about.php:159
+#: wp-admin/about.php:166
 msgid "Did you know that WordPress has a thriving offline community with groups meeting regularly in more than 400 cities around the world? WordPress now draws your attention to the events that help you continue improving your WordPress skills, meet friends, and, of course, publish!"
 msgstr "Știai că WordPress are o comunitate offline înfloritoare cu grupuri care se întâlnesc în mod regulat în peste 400 de orașe din întreaga lume? Acum WordPress îți atrage atenția asupra evenimentelor care te ajută să continui îmbunătățirea cunoștințelor tale de WordPress, să te întâlnești cu prietenii și, bineînțeles, să publici!"
 
-#: wp-admin/about.php:157
+#: wp-admin/about.php:164
 msgid "Nearby WordPress Events"
 msgstr "Evenimente WordPress în apropiere"
 
-#: wp-admin/about.php:138
+#: wp-admin/about.php:145
 msgid "Have you ever tried updating a link, or the text around a link, and found you can&#8217;t seem to edit it correctly? When you edit the text after the link, your new text also ends up linked. Or you edit the text in the link, but your text ends up outside of it. This can be frustrating! With link boundaries, a great new feature, the process is streamlined and your links will work well. You’ll be happier. We promise."
 msgstr "Ai încercat vreodată să actualizezi o legătură sau textul adiacent unei legături și să ai impresia că nu o poți face corect? Când editezi textul după legătură, noul text se adaugă celui al legăturii. Sau când editezi textul din legătură, ce ai adăugat ajunge în afara ei. Acest lucru poate fi frustrant! Cu limitele legăturii, o nouă funcționalitate importantă, procesul este simplificat și legăturile tale vor funcționa bine. Vei fi mulțumit. Promitem."
 
-#: wp-admin/about.php:137
+#: wp-admin/about.php:144
 msgid "Link Boundaries"
 msgstr "Limite legătură"
 
-#: wp-admin/about.php:129
+#: wp-admin/about.php:136
 msgid "This feature deserves a parade down the center of town! Rich-text editing capabilities are now native for Text widgets. Add a widget anywhere and format away. Create lists, add emphasis, and quickly and easily insert links. Have fun with your newfound formatting powers, and watch what you can accomplish in a short amount of time."
 msgstr "Această funcționalitate merită o paradă în centrul orașului! Posibilitatea de a edita a textului îmbogățit este acum nativă pentru piesele Text. Adaugi oriunde o piesă și o formatezi. Creezi liste, adaugi sublinieri și introduci rapid și ușor legături. Distrează-te cu noua ta putere de a formata și vezi câte poți face într-o scurtă perioadă de timp."
 
-#: wp-admin/about.php:128
+#: wp-admin/about.php:135
 msgid "Rich Text Widget"
 msgstr "Piesă text îmbogățit"
 
-#: wp-admin/about.php:125
+#: wp-admin/about.php:132
 msgid "Are you a podcaster, musician, or avid blogger? Adding a widget with your audio file has never been easier. Upload your audio file to the Media Library, go to the widget settings, select your file, and you&#8217;re ready for listeners. This would be a easy way to add a more personal welcome message, too!"
 msgstr "Ești un producător de podcast, un muzician sau un bloger pasionat? Adăugarea unei piese cu fișierul tău audio nu a fost niciodată mai ușoară. Încarcă-ți fișierul audio în Biblioteca media, du-te la setările piesei, selectează fișierul și ești gata pentru ascultători. Aceasta ar putea fi și o modalitate ușoară de a adăuga un mesaj de întâmpinare mai personal!"
 
-#: wp-admin/about.php:121
+#: wp-admin/about.php:128
 msgid "A welcome video is a great way to humanize the branding of your website. You can now add any video from the Media Library to a sidebar on your site with the new Video widget. Use this to showcase a welcome video to introduce visitors to your site or promote your latest and greatest content."
 msgstr "Un video de bun venit este o modalitate excelentă de a umaniza personalizarea sitului tău web. Acum poți adăuga oricare video din Biblioteca media într-o bară laterală de pe situl tău cu noua piesă Video. Folosește-o pentru a afișa un video de întâmpinare pentru a-ți prezenta situl vizitatorilor tăi sau pentru a-ți promova cel mai recent și important conținut."
 
-#: wp-admin/about.php:117
+#: wp-admin/about.php:124
 msgid "Adding an image to a widget is now a simple task that is achievable for any WordPress user without needing to know code. Simply insert your image right within the widget settings. Try adding something like a headshot or a photo of your latest weekend adventure &mdash; and see it appear automatically."
 msgstr "Adăugarea unei imagini într-o piesă este acum o treabă simplă care poate fi realizată de orice utilizator WordPress fără cunoștințe de programare. Pur și simplu introduci imaginea direct în setările piesei. Încearcă să adaugi ceva, un portret sau o fotografie făcută în ultimul weekend &mdash; și ea va apărea automat."
 
-#: wp-admin/about.php:68
+#: wp-admin/about.php:75
 msgid "Exciting Widget Updates"
 msgstr "Actualizări incitante de piese"
 
-#: wp-admin/about.php:62
+#: wp-admin/about.php:69
 msgid "Though some updates seem minor, they&#8217;ve been built by hundreds of contributors with <em>you</em> in mind. Get ready for new features you&#8217;ll welcome like an old friend: link improvements, <em>three</em> new media widgets covering images, audio, and video, an updated text widget that supports visual editing, and an upgraded news section in your dashboard which brings in nearby and upcoming WordPress events."
 msgstr "Deși unele actualizări par minore, ele au fost construite de sute de contributori cu gândul la <em>tine</em>. Pregătește-te pentru funcționalități noi pe care le vei primi ca pe un vechi prieten: îmbunătățiri pentru legături, <em>trei</em> noi piese media pentru imagini, audio și video, o piesă pentru text îmbunătățită care suportă editarea vizuală și o secțiune de știri actualizată în panoul tău de control care îți aduce viitoare evenimente WordPress din apropierea ta."
 
-#: wp-admin/about.php:61
+#: wp-admin/about.php:68
 msgid "WordPress 4.8 adds some great new features. Gear up for a more intuitive WordPress!"
 msgstr "WordPress 4.8 adaugă câteva noi funcționalități grozave. Echipează-te pentru un WordPress mult mai intuitiv!"
 
-#: wp-admin/about.php:60
+#: wp-admin/about.php:67
 msgid "An Update with You in Mind"
 msgstr "O actualizare cu Tine în gând"
 
 #. translators: 1: WordPress version number, 2: plural number of bugs.
-#: wp-admin/about.php:52 wp-admin/about.php:259
+#: wp-admin/about.php:59 wp-admin/about.php:266
 msgid "<strong>Version %1$s</strong> addressed %2$s bug."
 msgid_plural "<strong>Version %1$s</strong> addressed %2$s bugs."
 msgstr[0] "<strong>Versiunea %1$s</strong> a rezolvat %2$s eroare."
@@ -10955,20 +10955,21 @@ msgstr[1] "<strong>Versiunea %1$s</strong> a rezolvat %2$s erori."
 msgstr[2] "<strong>Versiunea %1$s</strong> a rezolvat %2$s de erori."
 
 #. translators: %s: Codex URL
-#: wp-admin/about.php:50 wp-admin/about.php:54 wp-admin/about.php:271
+#: wp-admin/about.php:50 wp-admin/about.php:53 wp-admin/about.php:57
+#: wp-admin/about.php:61 wp-admin/about.php:278
 msgid "For more information, see <a href=\"%s\">the release notes</a>."
 msgstr "Pentru mai multe informații, vezi <a href=\"%s\">notele de lansare</a>."
 
 #. translators: 1: WordPress version number, 2: plural number of bugs. More
 #. than one security issue.
-#: wp-admin/about.php:48 wp-admin/about.php:267
+#: wp-admin/about.php:48 wp-admin/about.php:55 wp-admin/about.php:274
 msgid "<strong>Version %1$s</strong> addressed some security issues and fixed %2$s bug."
 msgid_plural "<strong>Version %1$s</strong> addressed some security issues and fixed %2$s bugs."
 msgstr[0] "<strong>Versiunea %1$s</strong> a rezolvat câteva probleme de securitate și %2$s eroare."
 msgstr[1] "<strong>Versiunea %1$s</strong> a rezolvat câteva probleme de securitate și %2$s erori."
 msgstr[2] "<strong>Versiunea %1$s</strong> a rezolvat câteva probleme de securitate și %2$s de erori."
 
-#: wp-admin/about.php:47 wp-admin/about.php:251
+#: wp-admin/about.php:47 wp-admin/about.php:258
 msgid "Maintenance and Security Releases"
 msgstr "Lansări de mentenanță și securitate"
 
@@ -10980,7 +10981,7 @@ msgstr "Drepturi"
 #: wp-admin/about.php:42 wp-admin/credits.php:13 wp-admin/credits.php:29
 #: wp-admin/freedoms.php:28
 msgid "Credits"
-msgstr "Recunoaștere"
+msgstr "Recunoștințe"
 
 #: wp-admin/about.php:41 wp-admin/credits.php:28 wp-admin/freedoms.php:27
 msgid "What&#8217;s New"

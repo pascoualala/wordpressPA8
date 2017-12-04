@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - Jetpack by WordPress.com - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2017-10-03 19:05:06+0000\n"
+"PO-Revision-Date: 2017-11-03 18:04:39+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -10,6 +10,10 @@ msgstr ""
 "X-Generator: GlotPress/2.4.0-alpha\n"
 "Language: ro\n"
 "Project-Id-Version: Plugins - Jetpack by WordPress.com - Stable (latest release)\n"
+
+#: modules/widgets/milestone/milestone.php:404
+msgid "Milestone Reached Message"
+msgstr "Mesaj ajuns la evenimentul important"
 
 #: modules/widgets/milestone/milestone.php:398
 msgid "Since your milestone"
@@ -81,6 +85,18 @@ msgstr "Bine ai venit la %s."
 msgctxt "The home page of a website."
 msgid "Home Page"
 msgstr "Prima pagină"
+
+#: _inc/lib/core-api/class.jetpack-core-api-module-endpoints.php:945
+msgid "The onboarding token couldn't be deleted."
+msgstr "Tokenul de îmbarcare nu a putut fi șters."
+
+#: _inc/lib/core-api/class.jetpack-core-api-module-endpoints.php:872
+msgid "Onboarding failed to process: %s"
+msgstr "Îmbarcarea a eșuat la procesare: %s"
+
+#: _inc/lib/class.core-rest-api-endpoints.php:1893
+msgid "Not valid onboarding data."
+msgstr "Nicio dată de îmbarcare validă."
 
 #: _inc/jetpack-strings.php:584
 msgid "Thanks for choosing a Jetpack Professional plan. Jetpack is now backing up your content, scanning for security threats, and granting access to premium themes."
@@ -5945,7 +5961,7 @@ msgstr "Setările de rețea ale Jetpack actualizate!"
 
 #: views/admin/network-admin-footer.php:19
 msgid "Terms of Service"
-msgstr "Termenii de utilizare a serviciului"
+msgstr "Termenii de utilizare ai serviciului"
 
 #: views/admin/network-admin-footer.php:18
 msgid "Privacy Policy"

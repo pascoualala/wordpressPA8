@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 4.8.x - Administration package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2017-09-12 21:37:24+0000\n"
+"PO-Revision-Date: 2017-12-06 13:22:56+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -10726,7 +10726,7 @@ msgstr[1] "<strong>גרסה %1$s</strong> מטפלת בסוגיית אבטחה �
 #. translators: %s: WordPress version number
 #: wp-admin/about.php:263
 msgid "<strong>Version %s</strong> addressed some security issues."
-msgstr "<strong>גרסה %s</strong> מטפלת בסוגיות אבטחה."
+msgstr "<strong>גרסה %s</strong> מטפלת במספר סוגיות אבטחה."
 
 #. translators: %s: WordPress version number
 #: wp-admin/about.php:52 wp-admin/about.php:261

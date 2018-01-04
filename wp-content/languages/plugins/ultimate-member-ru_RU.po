@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - Ultimate Member &#8211; User Profile &amp; Membership Plugin - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2017-10-09 15:56:36+0000\n"
+"PO-Revision-Date: 2017-12-16 05:09:36+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -56,7 +56,7 @@ msgstr "Передача Аватара BuddyPress"
 
 #: um-config.php:2167
 msgid "Advanced"
-msgstr "Продвинутый"
+msgstr "Расширенный"
 
 #: um-config.php:2159
 msgid "Sub-Directory"
@@ -216,15 +216,15 @@ msgstr "Ссылка на страницу \\\"Забыли пароль?\\\" д
 
 #: um-config.php:1945
 msgid "Login Secondary Button URL"
-msgstr "URL вторичной кнопки для формы Входа на сайт"
+msgstr "URL второй кнопки для формы Входа на сайт"
 
 #: um-config.php:1936
 msgid "Login Secondary Button Text"
-msgstr "Текст вторичной кнопки для формы Входа на сайт"
+msgstr "Текст второй кнопки для формы Входа на сайт"
 
 #: um-config.php:1926
 msgid "Login Secondary Button"
-msgstr "Вторичная кнопка для формы Входа на сайт"
+msgstr "Вторая кнопка для формы Входа на сайт"
 
 #: um-config.php:1918
 msgid "Login Primary Button Text"
@@ -268,27 +268,27 @@ msgstr "Вы можете заменить ссылку по умолчанию 
 
 #: um-config.php:1843
 msgid "Registration Secondary Button URL"
-msgstr "URL вторичной кнопки для формы Регистрации"
+msgstr "URL второй кнопки для формы Регистрации"
 
 #: um-config.php:1836 um-config.php:1938
 msgid "The text that is used for the secondary button text"
-msgstr "Текст, который используется для текста вторичной кнопки"
+msgstr "Текст второй кнопки"
 
 #: um-config.php:1834
 msgid "Registration Secondary Button Text"
-msgstr "Текст вторичной кнопки для формы Регистрации"
+msgstr "Текст второй кнопки формы Регистрации"
 
 #: um-config.php:1824
 msgid "Registration Secondary Button"
-msgstr "Вторичная кнопка для формы Регистрации"
+msgstr "Вторая кнопка формы Регистрации"
 
 #: um-config.php:1818 um-config.php:1920
 msgid "The text that is used for primary button text"
-msgstr "Текст, который используется для текста первичной кнопки"
+msgstr "Текст первой кнопки"
 
 #: um-config.php:1816
 msgid "Registration Primary Button Text"
-msgstr "Текст основной кнопки для формы Регистрации"
+msgstr "Текст первой кнопки для формы Регистрации"
 
 #: um-config.php:1804
 msgid "This controls the display of field icons in the registration form"

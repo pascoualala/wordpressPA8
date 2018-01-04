@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - Ultimate Member &#8211; User Profile &amp; Membership Plugin - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2017-10-13 17:44:48+0000\n"
+"PO-Revision-Date: 2017-12-27 19:06:22+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -5319,7 +5319,7 @@ msgstr "Erwartet Überprüfung"
 #: admin/core/um-admin-users.php:129 admin/templates/dashboard/users.php:12
 #: core/um-user.php:240
 msgid "Approved"
-msgstr "Genehmigt"
+msgstr "Freigegeben"
 
 #: admin/core/um-admin-users.php:38
 msgid "Info"

@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - Ultimate Member &#8211; User Profile &amp; Membership Plugin - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2017-12-09 09:28:59+0000\n"
+"PO-Revision-Date: 2018-01-16 08:49:03+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -2922,6 +2922,10 @@ msgstr "Tagalog"
 msgid "Turkmen"
 msgstr "Turkmen"
 
+#: core/um-builtin.php:1337
+msgid "Tigrinya"
+msgstr "提格雷语"
+
 #: core/um-builtin.php:1336
 msgid "Thai"
 msgstr "泰语"
@@ -2949,6 +2953,10 @@ msgstr "斯洛文尼亚"
 #: core/um-builtin.php:1320
 msgid "Sinhala"
 msgstr "僧伽罗语"
+
+#: core/um-builtin.php:1317
+msgid "Sindhi"
+msgstr "信德语"
 
 #: core/um-builtin.php:1315
 msgid "Sanskrit"
@@ -3008,7 +3016,7 @@ msgstr "马拉语"
 
 #: core/um-builtin.php:1283
 msgid "Mongolian"
-msgstr "蒙古語"
+msgstr "蒙古语"
 
 #: core/um-builtin.php:1281
 msgid "Macedonian"
@@ -3028,7 +3036,7 @@ msgstr "寮文"
 
 #: core/um-builtin.php:1272
 msgid "Limburgish"
-msgstr "林堡"
+msgstr "林堡语"
 
 #: core/um-builtin.php:1271
 msgid "Ganda"
@@ -3040,7 +3048,7 @@ msgstr "卢森堡语"
 
 #: core/um-builtin.php:1269
 msgid "Latin"
-msgstr "拉丁"
+msgstr "拉丁语"
 
 #: core/um-builtin.php:1268
 msgid "Kirghiz"
@@ -3048,7 +3056,7 @@ msgstr "吉爾吉斯語"
 
 #: core/um-builtin.php:1262
 msgid "Korean"
-msgstr "韓文"
+msgstr "韩语"
 
 #: core/um-builtin.php:1260
 msgid "Khmer"
@@ -3056,7 +3064,7 @@ msgstr "柬埔寨语"
 
 #: core/um-builtin.php:1259
 msgid "Kalaallisut"
-msgstr "格陵兰文"
+msgstr "格陵兰语"
 
 #: core/um-builtin.php:1257
 msgid "Kwanyama"
@@ -3072,11 +3080,11 @@ msgstr "格鲁吉亚 拉里"
 
 #: core/um-builtin.php:1252
 msgid "Japanese"
-msgstr "日元 (&yen;)"
+msgstr "日语"
 
 #: core/um-builtin.php:1250
 msgid "Italian"
-msgstr "義大利文"
+msgstr "義大利语"
 
 #: core/um-builtin.php:1246
 msgid "Sichuan Yi"
@@ -3096,7 +3104,7 @@ msgstr "海地语"
 
 #: core/um-builtin.php:1237
 msgid "Croatian"
-msgstr "克罗地亚库纳"
+msgstr "克罗地亚库纳语"
 
 #: core/um-builtin.php:1235
 msgid "Hindi"
@@ -3104,7 +3112,7 @@ msgstr "印地语"
 
 #: core/um-builtin.php:1234
 msgid "Hebrew"
-msgstr "希伯来"
+msgstr "希伯来语"
 
 #: core/um-builtin.php:1231
 msgid "Gujarati"
@@ -3112,7 +3120,7 @@ msgstr "古吉拉特语"
 
 #: core/um-builtin.php:1230
 msgid "Guarani"
-msgstr "瓜拉尼文"
+msgstr "瓜拉尼语"
 
 #: core/um-builtin.php:1228
 msgid "Scottish Gaelic"
@@ -3120,19 +3128,19 @@ msgstr "苏格兰盖尔语"
 
 #: core/um-builtin.php:1227
 msgid "Irish"
-msgstr "爱尔兰文"
+msgstr "爱尔兰语"
 
 #: core/um-builtin.php:1225
 msgid "French"
-msgstr "法国南部领土"
+msgstr "法语"
 
 #: core/um-builtin.php:1224
 msgid "Faroese"
-msgstr "法羅文"
+msgstr "法羅语"
 
 #: core/um-builtin.php:1222
 msgid "Finnish"
-msgstr "芬兰文"
+msgstr "芬兰语"
 
 #: core/um-builtin.php:1221
 msgid "Fulah"
@@ -3140,7 +3148,7 @@ msgstr "富拉语"
 
 #: core/um-builtin.php:1220
 msgid "Persian"
-msgstr "波斯文"
+msgstr "波斯语"
 
 #: core/um-builtin.php:1217
 msgid "Spanish"
@@ -3160,27 +3168,27 @@ msgstr "迪维希语"
 
 #: core/um-builtin.php:1210
 msgid "German"
-msgstr "德文"
+msgstr "德语"
 
 #: core/um-builtin.php:1209
 msgid "Danish"
-msgstr "丹麥文"
+msgstr "丹麥语"
 
 #: core/um-builtin.php:1206
 msgid "Church Slavic"
-msgstr "教會斯拉夫文"
+msgstr "教會斯拉夫语"
 
 #: core/um-builtin.php:1205
 msgid "Czech"
-msgstr "捷克文"
+msgstr "捷克语"
 
 #: core/um-builtin.php:1200
 msgid "Catalan"
-msgstr "加泰羅尼亞文"
+msgstr "加泰羅尼亞语"
 
 #: core/um-builtin.php:1197
 msgid "Tibetan"
-msgstr "西藏文"
+msgstr "西藏语"
 
 #: core/um-builtin.php:1196
 msgid "Bengali"
@@ -3188,31 +3196,31 @@ msgstr "孟加拉语"
 
 #: core/um-builtin.php:1192
 msgid "Bulgarian"
-msgstr "保加利亚列弗"
+msgstr "保加利亚列弗语"
 
 #: core/um-builtin.php:1191
 msgid "Belarusian"
-msgstr "白俄罗斯 卢布"
+msgstr "白俄罗斯 卢布语"
 
 #: core/um-builtin.php:1189
 msgid "Azerbaijani"
-msgstr "阿塞拜疆 马纳特"
+msgstr "阿塞拜疆 马纳特语"
 
 #: core/um-builtin.php:1185
 msgid "Arabic"
-msgstr "阿拉伯"
+msgstr "阿拉伯语"
 
 #: core/um-builtin.php:1181
 msgid "Afrikaans"
-msgstr "南非語"
+msgstr "南非语"
 
 #: core/um-builtin.php:1180
 msgid "Avestan"
-msgstr "阿维斯陀"
+msgstr "阿维斯陀语"
 
 #: core/um-builtin.php:1179
 msgid "Abkhazian"
-msgstr "阿布哈兹"
+msgstr "阿布哈兹语"
 
 #: core/um-builtin.php:1164
 msgid "Custom Validation"

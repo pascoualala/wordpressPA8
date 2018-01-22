@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - Google Analytics for WordPress by MonsterInsights - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2017-09-20 09:06:14+0000\n"
+"PO-Revision-Date: 2017-11-03 14:12:10+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -264,15 +264,15 @@ msgstr "Si vous vnez d’installer MonsterInsights, les données peuvent mettre 
 
 #: includes/admin/pages/tools.php:190
 msgid "Please upload a real settings export file to import"
-msgstr "Veuillez envoyer un bon fichier de réglages"
+msgstr "Veuillez téléverser un bon fichier de réglages"
 
 #: includes/admin/pages/tools.php:185
 msgid "Please upload a file to import"
-msgstr "Veuillez envoyer un fichier"
+msgstr "Veuillez téléverser un fichier"
 
 #: includes/admin/pages/tools.php:179
 msgid "Please upload a valid .json file"
-msgstr "Veuillez envoyer un fichier .json valide"
+msgstr "Veuillez téléverser un fichier .json valide"
 
 #: includes/admin/pages/tools.php:107
 msgid "Export"
@@ -2186,7 +2186,7 @@ msgid "https://www.monsterinsights.com/"
 msgstr "https://www.monsterinsights.com/"
 
 #. #-#-#-#-#  google-analytics-for-wordpress-code.pot (Google Analytics for
-#. WordPress by MonsterInsights 6.2.4)  #-#-#-#-#
+#. WordPress by MonsterInsights 6.2.7)  #-#-#-#-#
 #. Author of the plugin/theme
 #: includes/admin/partials/header.php:19
 msgid "MonsterInsights"

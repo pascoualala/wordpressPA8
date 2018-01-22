@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - All-in-One WP Migration - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2017-09-20 20:56:17+0000\n"
+"PO-Revision-Date: 2017-11-23 13:17:54+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -10,6 +10,10 @@ msgstr ""
 "X-Generator: GlotPress/2.4.0-alpha\n"
 "Language: es\n"
 "Project-Id-Version: Plugins - All-in-One WP Migration - Stable (latest release)\n"
+
+#: lib/view/export/button-mega.php:1 lib/view/import/button-mega.php:1
+msgid "Mega"
+msgstr "Mega"
 
 #: lib/vendor/servmask/command/class-ai1wm-wp-cli-command.php:213
 msgid "Example: wp ai1wm restore migration-wp-20170913-095743-931.wpress"
@@ -81,7 +85,7 @@ msgstr "Archivo de la base de datos completado."
 msgid "Archiving database...<br />%d%% complete"
 msgstr "Archivo de la base de datos...<br />%d%% completado."
 
-#: functions.php:1069
+#: functions.php:1081
 msgid "Unable to authenticate the secret key."
 msgstr "No se puede autentificar la clave secreta."
 
@@ -112,11 +116,11 @@ msgstr "Mensual"
 msgid "Weekly"
 msgstr "Semanal"
 
-#: functions.php:861
+#: functions.php:873
 msgid "Unable to read file: %s"
 msgstr "Imposible leer el archivo: %s"
 
-#: functions.php:843
+#: functions.php:855
 msgid "Out of disk space."
 msgstr "Sin espacio en disco."
 
@@ -188,11 +192,11 @@ msgstr "Falta la clave de error en el archivo subido."
 msgid "Missing upload file."
 msgstr "Falta el archivo a subir."
 
-#: functions.php:840
+#: functions.php:852
 msgid "Unable to write to: %s"
 msgstr "No se puede escribir en: %s"
 
-#: functions.php:821
+#: functions.php:833
 msgid "Unable to open %s with mode %s"
 msgstr "No se puede abrir %s con el modo %s"
 
@@ -330,10 +334,10 @@ msgstr "ServMask"
 msgid "Migration tool for all your blog data. Import or Export your blog content with a single click."
 msgstr "Herramienta de migración para todos los datos de tu blog. Importa o Exporta el contenido de tu blog con un solo clic."
 
-#. #-#-#-#-#  all-in-one-wp-migration-code.pot (All-in-One WP Migration 6.58) 
+#. #-#-#-#-#  all-in-one-wp-migration-code.pot (All-in-One WP Migration 6.61) 
 #. #-#-#-#-#
 #. Plugin URI of the plugin/theme
-#. #-#-#-#-#  all-in-one-wp-migration-code.pot (All-in-One WP Migration 6.58) 
+#. #-#-#-#-#  all-in-one-wp-migration-code.pot (All-in-One WP Migration 6.61) 
 #. #-#-#-#-#
 #. Author URI of the plugin/theme
 msgid "https://servmask.com/"
@@ -569,15 +573,15 @@ msgstr "Fecha"
 msgid "Name"
 msgstr "Nom"
 
-#: functions.php:895
+#: functions.php:907
 msgid "Unable to get current pointer position of %s"
 msgstr "No se puede obtener la posición del puntero actual de %s"
 
-#: functions.php:878
+#: functions.php:890
 msgid "Unable to seek to offset %d on %s"
 msgstr "No se puede buscar un desplazamiento %d en %s"
 
-#: lib/model/import/class-ai1wm-import-done.php:145
+#: lib/model/import/class-ai1wm-import-done.php:157
 msgid "Your data has been imported successfully!"
 msgstr "¡Tus datos se han importado correctamente!"
 

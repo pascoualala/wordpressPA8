@@ -1,0 +1,79 @@
+#ays_content
+{
+	min-width:300px;
+	padding: 16px;
+	background-repeat:no-repeat;
+	background-size:80px 80px;
+	background-position:center;
+}
+.ays_intro,.finish
+{
+	text-align:center;
+}
+.ays_answers_list
+{
+	list-style-type:none;
+	padding-left:0;
+	margin: 10px 0;
+	width:100%;
+}
+.ays_answers_list li{
+	padding: 10px;
+}
+.ays_label
+{
+	display:inline-block;
+}
+.ays_checkbox,.ays_radio
+{
+	margin:0 !important;
+}
+
+.question_result{
+	padding: 10px;
+	margin-top: 10px;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+}
+.question_result:after{
+	content:"";
+	display:table;
+	clear:both;
+}
+
+.ays-answer-type{
+	width: 4px;
+	height: 27px;
+	float:left;
+}
+
+
+.result p, .result h1{
+	text-align:center;
+}
+
+.score-wrapper {
+	background: rgb(97, 200, 93);
+	border-radius:3px;
+	position:relative;
+}
+.score {
+	background: rgb(16, 63, 14);
+	padding: 10px;
+	color: #fff;
+	text-align: center;
+}
+
+.score-text{
+	color: #fff;
+	position:absolute;
+	top:0;
+	bottom:0;
+	right:0;
+	left:0;
+	margin:auto;
+	width: 15px;
+}
+.hide{
+	display:none;
+}

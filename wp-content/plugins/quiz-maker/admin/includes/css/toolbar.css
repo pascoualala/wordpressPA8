@@ -1,0 +1,104 @@
+.ac-toolbar{
+	padding-left: 45px;
+	margin:0;
+}
+
+.ac-toolbar .ac-toolbar-block{
+	border: 1px solid #ccc;
+	border-color: #dedede;
+	border-radius:5px;
+	padding:15px;
+	margin-bottom:15px;
+        text-align: center;
+}
+.ac-toolbar .ac-toolbar-item {
+	display:inline-block;
+	margin-left:15px;
+}
+
+.ac-toolbar-icon{
+	display:block;
+	height:50px;
+	width: 50px;
+	margin: 0 auto;
+}
+.ac-toolbar-icon-1{
+	background:url(../images/toolbar_icons/toolbar.png) no-repeat;
+}
+.ac-toolbar-icon-2{
+	background:url(../images/toolbar_icons/toolbar.png) no-repeat;
+}
+.ac-toolbar-icon-3{
+	background:url(../images/toolbar_icons/toolbar.png) no-repeat;
+}
+.ac-toolbar-icon-4{
+	background:url(../images/toolbar_icons/toolbar.png) no-repeat;
+}
+.ac-toolbar-icon-5{
+	background:url(../images/toolbar_icons/toolbar.png) no-repeat;
+}
+.ac-toolbar-icon-6{
+	background:url(../images/toolbar_icons/toolbar.png) no-repeat;
+}
+.ac-toolbar-icon-7{
+	background:url(../images/toolbar_icons/toolbar.png) no-repeat;
+}
+.ac-toolbar-icon-8{
+	background:url(../images/toolbar_icons/toolbar.png) no-repeat;
+}
+
+.ac-toolbar .ac-toolbar-block .ac-toolbar-item a{
+	box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(128, 128, 128, 0.1) inset;
+	border-color: #dedede;
+	position: relative;
+	display: block;
+	width: 155px;
+	margin: 20px auto;
+	padding: 10px;
+	background-color: #fff;
+	border: 1px solid #ccc;
+	color: #000;
+	text-align: center;
+	text-decoration: none;
+	transform-style: flat;
+	transition: all 250ms ease-out;
+	border-radius:5px;
+	color: #0A4C6D;
+}
+.ac-toolbar .ac-toolbar-block .ac-toolbar-item a:before, .ac-toolbar .ac-toolbar-block .ac-toolbar-item a:after{
+	content: "";
+	position: absolute;
+	z-index: -2;
+	transition: all 250ms ease-out;
+	bottom: 12px;
+	width: 50%;
+	height: 55%;
+	max-width: 200px;
+	max-height: 100px;
+	box-shadow: 1px 8px 12px rgba(31, 31, 31, 0.6);
+}
+
+.ac-toolbar .ac-toolbar-block .ac-toolbar-item a:before{
+	display:none;
+	left: 10px;
+}
+
+.ac-toolbar .ac-toolbar-block .ac-toolbar-item a:after{
+	bottom: 14px;
+	width: 50%;
+	height: 55%;
+	max-width: 200px;
+	max-height: 100px;
+	box-shadow: 1px 8px 12px rgba(31, 31, 31, 0.6);
+	right: 10px;
+}
+.ac-toolbar .ac-toolbar-block .ac-toolbar-item a:hover{
+	border-radius: 0 0 40% 0 / 0 0 30% 0;
+}
+.ac-toolbar .ac-toolbar-block .ac-toolbar-item a:hover:before{
+	transform: skew(-8deg) rotate(-3deg);
+}
+.ac-toolbar .ac-toolbar-block .ac-toolbar-item a:hover:before,.ac-toolbar .ac-toolbar-block .ac-toolbar-item a:hover:after{
+	box-shadow: 1px 8px 12px rgba(31, 31, 31, 0.8);
+	transform: skew(8deg) rotate(3deg);
+}

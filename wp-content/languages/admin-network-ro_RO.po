@@ -24,7 +24,7 @@ msgstr "Ești pe cale să ștergi următoarele situri:"
 msgid "User could not be added to this site."
 msgstr "Utilizatorul nu a putut fi adăugat la acest sit."
 
-#: wp-admin/network/site-new.php:250
+#: wp-admin/network/site-new.php:252
 msgid "The username and a link to set the password will be mailed to this email address."
 msgstr "Numele de utilizator și o legătură pentru a seta parola vor fi trimise prin email la această adresă de email."
 
@@ -567,7 +567,7 @@ msgstr "Tipuri de fișiere permise. Separă tipurile cu spații."
 msgid "Set site attributes"
 msgstr "Setează atribute sit"
 
-#: wp-admin/network/settings.php:418
+#: wp-admin/network/settings.php:420
 msgid "Enable menus"
 msgstr "Activează meniuri"
 
@@ -1245,7 +1245,7 @@ msgstr "Setări încărcare"
 msgid "Operational Settings"
 msgstr "Setări operaționale"
 
-#: wp-admin/network/settings.php:396
+#: wp-admin/network/settings.php:398
 msgid "Enable administration menus"
 msgstr "Permite meniuri de administrare"
 
@@ -1286,15 +1286,15 @@ msgstr "[%s] Sit nou creat"
 msgid "Network Admin Email"
 msgstr "Email administrator rețea"
 
-#: wp-admin/network/site-new.php:250
+#: wp-admin/network/site-new.php:252
 msgid "A new user will be created if the above email address is not in the database."
 msgstr "Va fi creat un utilizator nou dacă adresa de email de deasupra nu există în baza de date."
 
-#: wp-admin/network/site-new.php:246
+#: wp-admin/network/site-new.php:248
 msgid "Admin Email"
 msgstr "Email administrator"
 
-#: wp-admin/network/site-new.php:262
+#: wp-admin/network/site-new.php:264
 msgid "Add Site"
 msgstr "Adaugă sit"
 

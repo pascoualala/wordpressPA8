@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 4.9.x - Development package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2018-01-04 18:30:47+0000\n"
+"PO-Revision-Date: 2018-01-23 16:14:44+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -36,7 +36,17 @@ msgstr "."
 msgid "number_format_decimal_point"
 msgstr ","
 
-#: wp-includes/class-wp-customize-manager.php:4135
+#. translators: %s: User who is customizing the changeset in customizer.
+#: wp-includes/class-wp-customize-manager.php:3952
+msgid "%s is already customizing this changeset. Do you want to take over?"
+msgstr "%s personalizează deja acest set de modificări. Vrei să preiei controlul?"
+
+#. translators: %s: User who is customizing the changeset in customizer.
+#: wp-includes/class-wp-customize-manager.php:3950
+msgid "%s is already customizing this changeset. Please wait until they are done to try customizing. Your latest changes have been autosaved."
+msgstr "%s personalizează deja acest set de modificări. Pentru a încerca personalizarea, te rog așteaptă până când termină. Ultimele tale modificări au fost salvate automat."
+
+#: wp-includes/class-wp-customize-manager.php:4154
 msgid "Update anyway, even though it might break your site?"
 msgstr "Actualizezi oricum, chiar dacă s-ar putea să-ți cadă situl?"
 
@@ -89,7 +99,7 @@ msgctxt "post action/button label"
 msgid "Schedule"
 msgstr "Programează"
 
-#: wp-includes/class-wp-customize-manager.php:4588
+#: wp-includes/class-wp-customize-manager.php:4607
 #: wp-includes/script-loader.php:554
 msgctxt "customizer changeset action/button label"
 msgid "Schedule"
@@ -123,37 +133,37 @@ msgstr "%s a preluat controlul și acum personalizează."
 msgid "Looks like something&#8217;s gone wrong. Wait a couple seconds, and then try again."
 msgstr "Se pare că ceva n-a mers bine. Așteaptă câteva secunde și încearcă din nou."
 
-#: wp-includes/class-wp-customize-manager.php:4121
+#: wp-includes/class-wp-customize-manager.php:4140
 msgid "Take over"
 msgstr "Preia controlul"
 
-#: wp-includes/class-wp-customize-manager.php:4117
+#: wp-includes/class-wp-customize-manager.php:4136
 msgid "Go back"
 msgstr "Du-te înapoi"
 
 #. translators: %s: User who is customizing the changeset in customizer.
-#: wp-includes/class-wp-customize-manager.php:4110
+#: wp-includes/class-wp-customize-manager.php:3957
 msgid "%s is already customizing this site. Please wait until they are done to try customizing. Your latest changes have been autosaved."
 msgstr "%s personalizează deja acest sit. Te rog așteaptă până când termină personalizarea. Ultimele tale modificări au fost salvate automat."
 
 #. translators: %s: User who is customizing the changeset in customizer.
-#: wp-includes/class-wp-customize-manager.php:4105
+#: wp-includes/class-wp-customize-manager.php:3959
 msgid "%s is already customizing this site. Do you want to take over?"
 msgstr "%s personalizează deja acest sit. Vrei să preiei controlul?"
 
-#: wp-includes/class-wp-customize-manager.php:3210
+#: wp-includes/class-wp-customize-manager.php:3215
 msgid "Sorry, you are not allowed to take over."
 msgstr "Regret, nu ai voie să preiei controlul."
 
-#: wp-includes/class-wp-customize-manager.php:3203
+#: wp-includes/class-wp-customize-manager.php:3208
 msgid "No changeset found to take over"
 msgstr "Niciun set de modificări găsit pentru a prelua controlul"
 
-#: wp-includes/class-wp-customize-manager.php:3194
+#: wp-includes/class-wp-customize-manager.php:3199
 msgid "Security check failed."
 msgstr "Verificarea de securitate a eșuat."
 
-#: wp-includes/class-wp-customize-manager.php:2451
+#: wp-includes/class-wp-customize-manager.php:2456
 msgid "Changeset is being edited by other user."
 msgstr "Setul de modificări este editat de către alt utilizator."
 
@@ -191,11 +201,11 @@ msgctxt "menu locations"
 msgid "View All Locations"
 msgstr "Vezi toate locațiile"
 
-#: wp-includes/class-wp-customize-manager.php:4788
+#: wp-includes/class-wp-customize-manager.php:4808
 msgid "While previewing a new theme, you can continue to tailor things like widgets and menus, and explore theme-specific options."
 msgstr "În timp ce previzualizezi o temă nouă, poți continua să ajustezi lucruri, cum ar fi piese și meniuri și să explorezi opțiunile specifice temelor."
 
-#: wp-includes/class-wp-customize-manager.php:4787
+#: wp-includes/class-wp-customize-manager.php:4807
 msgid "Looking for a theme? You can search or browse the WordPress.org theme directory, install and preview themes, then activate them right here."
 msgstr "Cauți o temă? Poți răsfoi sau căuta în directorul de teme WordPress.org, poți instala și previzualiza teme și apoi să le activezi chiar de aici."
 
@@ -203,7 +213,7 @@ msgstr "Cauți o temă? Poți răsfoi sau căuta în directorul de teme WordPres
 msgid "Something went wrong. Your change may not have been saved. Please try again. There is also a chance that you may need to manually fix and upload the file over FTP."
 msgstr "Ceva n-a mers bine. Modificarea ta poate nu a fost salvată. Te rog încearcă din nou. Mai există o posibilitate, poți să corectezi și să încarci manual fișierul prin FTP."
 
-#: wp-includes/class-wp-customize-manager.php:5242
+#: wp-includes/class-wp-customize-manager.php:5262
 msgid "Screen reader users: when in forms mode, you may need to press the escape key twice."
 msgstr "Utilizatori cititor de ecran: când este în modul formulare, ar trebui să apeși de două ori tasta ieșire."
 
@@ -709,13 +719,13 @@ msgstr "Sit web: %1$s (adresă IP: %2$s, %3$s)"
 
 #. translators: Network admin email change notification email subject. %s:
 #. Network title
-#: wp-includes/ms-functions.php:2697
+#: wp-includes/ms-functions.php:2704
 msgid "[%s] Notice of Network Admin Email Change"
 msgstr "[%s] Notificare pentru modificarea emailului administratorului de rețea"
 
 #. translators: Do not translate OLD_EMAIL, NEW_EMAIL, SITENAME, SITEURL: those
 #. are placeholders.
-#: wp-includes/ms-functions.php:2682
+#: wp-includes/ms-functions.php:2689
 msgid ""
 "Hi,\n"
 "\n"
@@ -793,13 +803,13 @@ msgstr "Copierea verificării nunicului a eșuat. Te rog încearcă din nou."
 
 #. translators: Site admin email change notification email subject. %s: Site
 #. title
-#: wp-includes/functions.php:5772
+#: wp-includes/functions.php:5779
 msgid "[%s] Notice of Admin Email Change"
 msgstr "[%s] Notificare pentru modificarea emailului administratorului"
 
 #. translators: Do not translate OLD_EMAIL, NEW_EMAIL, SITENAME, SITEURL: those
 #. are placeholders.
-#: wp-includes/functions.php:5757
+#: wp-includes/functions.php:5764
 msgid ""
 "Hi,\n"
 "\n"
@@ -859,9 +869,10 @@ msgstr "Instalează și previzualizează"
 msgid "Invalid URL."
 msgstr "URL invalid."
 
-#: wp-includes/customize/class-wp-customize-nav-menu-control.php:39
-msgid "Time to add some links! Click &#8220;Add menu items&#8221; to start putting pages, categories, and custom links in your menu. Add as many things as you&#8217;d like."
-msgstr "Este timpul să adaugi câteva legături! Dă clic pe &#8222;Adaugă elemente de meniu&#8221; pentru a începe să introduci în meniu pagini, categorii și legături personalizate. Adaugă cât de multe lucruri vrei."
+#. translators: %s: "Add Items" button text
+#: wp-includes/customize/class-wp-customize-nav-menu-control.php:44
+msgid "Time to add some links! Click &#8220;%s&#8221; to start putting pages, categories, and custom links in your menu. Add as many things as you&#8217;d like."
+msgstr "Este timpul să adaugi câteva legături! Dă clic pe &#8222;%s&#8221; pentru a începe să introduci în meniu pagini, categorii și legături personalizate. Adaugă cât de multe lucruri vrei."
 
 #: wp-includes/customize/class-wp-customize-media-control.php:249
 msgid "Choose image"
@@ -989,13 +1000,13 @@ msgstr[2] "Tema ta poate afișa meniuri în %s de locații."
 msgid "Your theme can display menus in one location."
 msgstr "Tema ta poate afișa meniuri într-o singură locație."
 
-#: wp-includes/class-wp-customize-manager.php:5278
+#: wp-includes/class-wp-customize-manager.php:5298
 msgid "CSS code"
 msgstr "Cod CSS"
 
 #. translators: 1: link to user profile, 2: additional link attributes, 3:
 #. accessibility text
-#: wp-includes/class-wp-customize-manager.php:5249
+#: wp-includes/class-wp-customize-manager.php:5269
 #: wp-includes/widgets/class-wp-widget-custom-html.php:299
 msgid "The edit field automatically highlights code syntax. You can disable this in your <a href=\"%1$s\" %2$s>user profile%3$s</a> to work in plain text mode."
 msgstr "Câmpul de editare evidențiază automat sintaxa codului. Poți dezactiva asta în <a href=\"%1$s\" %2$s>profil utilizator%3$s</a> pentru a funcționa în modul text simplu."
@@ -1004,51 +1015,51 @@ msgstr "Câmpul de editare evidențiază automat sintaxa codului. Poți dezactiv
 msgid "Screen reader users: when in forms mode, you may need to press the Esc key twice."
 msgstr "Pentru utilizatorii ecranului cititor: când este în modul formulare, ar trebui să apeși de două ori tasta Esc."
 
-#: wp-includes/class-wp-customize-manager.php:5241
+#: wp-includes/class-wp-customize-manager.php:5261
 #: wp-includes/widgets/class-wp-widget-custom-html.php:312
 msgid "To move away from this area, press the Esc key followed by the Tab key."
 msgstr "Pentru a ieși din această zonă, apasă tasta Esc urmată de tasta Tab."
 
-#: wp-includes/class-wp-customize-manager.php:5240
+#: wp-includes/class-wp-customize-manager.php:5260
 #: wp-includes/widgets/class-wp-widget-custom-html.php:311
 msgid "In the editing area, the Tab key enters a tab character."
 msgstr "În zona de editare, tasta Tab introduce un caracter tab."
 
-#: wp-includes/class-wp-customize-manager.php:5238
+#: wp-includes/class-wp-customize-manager.php:5258
 #: wp-includes/widgets/class-wp-widget-custom-html.php:309
 msgid "When using a keyboard to navigate:"
 msgstr "Când se folosește o tastatură pentru navigare:"
 
-#: wp-includes/class-wp-customize-manager.php:5228
+#: wp-includes/class-wp-customize-manager.php:5248
 msgid "Add your own CSS code here to customize the appearance and layout of your site."
 msgstr "Adaugă aici propriul CSS pentru a-ți personaliza aspectul și aranjamentul sitului."
 
-#: wp-includes/class-wp-customize-manager.php:5193
+#: wp-includes/class-wp-customize-manager.php:5213
 msgid "Your homepage displays"
 msgstr "Afișările tale de pe prima pagină"
 
-#: wp-includes/class-wp-customize-manager.php:5182
+#: wp-includes/class-wp-customize-manager.php:5202
 msgid "You can choose what&#8217;s displayed on the homepage of your site. It can be posts in reverse chronological order (classic blog), or a fixed/static page. To set a static homepage, you first need to create two Pages. One will become the homepage, and the other will be where your posts are displayed."
 msgstr "Poți alege ce se afișează pe prima pagină a sitului tău. Pot fi articole în ordine cronologică inversă (blog clasic) sau o pagină fixă/statică. Pentru a seta o primă pagină statică, va trebui mai întâi să creezi două pagini. Una va deveni prima pagină, iar cealaltă va fi cea în care sunt afișate articolele tale."
 
-#: wp-includes/class-wp-customize-manager.php:5180
+#: wp-includes/class-wp-customize-manager.php:5200
 msgid "Homepage Settings"
 msgstr "Setări prima pagină"
 
 #. translators: %s: site icon size in pixels
-#: wp-includes/class-wp-customize-manager.php:4874
+#: wp-includes/class-wp-customize-manager.php:4894
 msgid "Site Icons should be square and at least %s pixels."
 msgstr "Iconurile sitului trebuie să fie pătrate și de cel puțin %s de pixeli."
 
-#: wp-includes/class-wp-customize-manager.php:4872
+#: wp-includes/class-wp-customize-manager.php:4892
 msgid "Site Icons are what you see in browser tabs, bookmark bars, and within the WordPress mobile apps. Upload one here!"
 msgstr "Iconurile sitului sunt ceea ce vezi în filele navigatorului, barele cu semne de carte și în aplicațiile WordPress pentru mobil. Încarcă unul aici!"
 
-#: wp-includes/class-wp-customize-manager.php:4804
+#: wp-includes/class-wp-customize-manager.php:4824
 msgid "WordPress.org themes"
 msgstr "Teme WordPress.org"
 
-#: wp-includes/class-wp-customize-manager.php:4795
+#: wp-includes/class-wp-customize-manager.php:4815
 msgid "Installed themes"
 msgstr "Teme instalate"
 
@@ -1056,45 +1067,45 @@ msgstr "Teme instalate"
 msgid "Publish Settings"
 msgstr "Setări publicare"
 
-#: wp-includes/class-wp-customize-manager.php:4165
+#: wp-includes/class-wp-customize-manager.php:4184
 msgid "Copied"
 msgstr "Copiate"
 
-#: wp-includes/class-wp-customize-manager.php:4159
+#: wp-includes/class-wp-customize-manager.php:4178
 msgid "Preview Link"
 msgstr "Legătură previzualizare"
 
-#: wp-includes/class-wp-customize-manager.php:4156
+#: wp-includes/class-wp-customize-manager.php:4175
 msgid "See how changes would look live on your website, and share the preview with people who can't access the Customizer."
 msgstr "Vezi cum vor arăta live modificările pe situl tău web și partajează previzualizarea cu persoanele care nu pot accesa Personalizatorul."
 
-#: wp-includes/class-wp-customize-manager.php:4154
+#: wp-includes/class-wp-customize-manager.php:4173
 msgid "Share Preview Link"
 msgstr "Partajează legătura de previzualizare"
 
-#: wp-includes/class-wp-customize-manager.php:3035
+#: wp-includes/class-wp-customize-manager.php:3040
 msgid "Changes trashed successfully."
 msgstr "Modificările au fost aruncate la gunoi cu succes."
 
-#: wp-includes/class-wp-customize-manager.php:3020
+#: wp-includes/class-wp-customize-manager.php:3025
 msgid "Changes have already been trashed."
 msgstr "Modificările au fost deja aruncate la gunoi."
 
-#: wp-includes/class-wp-customize-manager.php:3014
-#: wp-includes/class-wp-customize-manager.php:3030
+#: wp-includes/class-wp-customize-manager.php:3019
+#: wp-includes/class-wp-customize-manager.php:3035
 msgid "Unable to trash changes."
 msgstr "Nu pot să arunc la gunoi modificările."
 
-#: wp-includes/class-wp-customize-manager.php:3005
+#: wp-includes/class-wp-customize-manager.php:3010
 msgid "No changes saved yet, so there is nothing to trash."
 msgstr "Nicio modificare salvată până acum, deci nu există nimic la gunoi."
 
-#: wp-includes/class-wp-customize-manager.php:2997
+#: wp-includes/class-wp-customize-manager.php:3002
 msgid "There was an authentication problem. Please reload and try again."
 msgstr "A fost o problemă de autentificare. Te rog reîncarcă și reîncearcă."
 
 #. translators: %s: number of invalid settings
-#: wp-includes/class-wp-customize-manager.php:2702
+#: wp-includes/class-wp-customize-manager.php:2707
 #: wp-includes/script-loader.php:593 wp-includes/script-loader.php:595
 msgid "Unable to save due to %s invalid setting."
 msgid_plural "Unable to save due to %s invalid settings."
@@ -1102,13 +1113,13 @@ msgstr[0] "Nu pot salva din cauza unei setări invalide."
 msgstr[1] "Nu pot salva din cauza a %s setări invalide."
 msgstr[2] "Nu pot salva din cauza a %s de setări invalide."
 
-#: wp-includes/class-wp-customize-manager.php:2588
-#: wp-includes/class-wp-customize-manager.php:2603
+#: wp-includes/class-wp-customize-manager.php:2593
+#: wp-includes/class-wp-customize-manager.php:2608
 #: wp-includes/script-loader.php:558
 msgid "You must supply a future date to schedule."
 msgstr "Trebuie să furnizezi o dată viitoare pentru a programa."
 
-#: wp-includes/class-wp-customize-manager.php:2565
+#: wp-includes/class-wp-customize-manager.php:2570
 msgid "The previous set of changes has already been published. Please try saving your current set of changes again."
 msgstr "Setul anterior de modificări a fost deja publicat. Te rog încearcă să salvezi din nou setul actual de modificări."
 
@@ -1120,31 +1131,31 @@ msgstr "Editează utilizator"
 msgid "View User"
 msgstr "Vezi utilizator"
 
-#: wp-includes/widgets/class-wp-widget-text.php:460
+#: wp-includes/widgets/class-wp-widget-text.php:461
 msgid "This widget may have contained code that may work better in the &#8220;Custom HTML&#8221; widget. If you haven&#8217;t yet, how about trying that widget instead?"
 msgstr "Această piesă poate conține cod ce ar putea funcționa mai bine în piesa &#8222;HTML personalizat&#8221;. Dacă n-ai făcut-o până acum, ce-ar fi să încerci s-o folosești aici?"
 
-#: wp-includes/widgets/class-wp-widget-text.php:513
+#: wp-includes/widgets/class-wp-widget-text.php:514
 msgid "Hey there, looks like you just pasted HTML into the &#8220;Visual&#8221; tab of the Text widget. You may want to paste your code into the &#8220;Text&#8221; tab instead. Alternately, try out the new &#8220;Custom HTML&#8221; widget!"
 msgstr "Hei, se pare că tocmai ai plasat ceva HTML în fila &#8222;Vizual&#8221; a piesei Text. În schimb, poate vrei să-ți plasezi codul în fila &#8222;Text&#8221;. Alternativ, încearcă noua piesă &#8222;HTML personalizat&#8221;!"
 
-#: wp-includes/widgets/class-wp-widget-text.php:512
+#: wp-includes/widgets/class-wp-widget-text.php:513
 msgid "Did you just paste HTML?"
 msgstr "Ai pus aici ceva HTML?"
 
-#: wp-includes/widgets/class-wp-widget-text.php:497
+#: wp-includes/widgets/class-wp-widget-text.php:498
 msgid "Did you know there is a &#8220;Custom HTML&#8221; widget now? You can find it by scanning the list of available widgets on this screen. Check it out to add some custom code to your site!"
 msgstr "Știai că există acum o nouă piesă &#8222;HTML personalizat&#8221;? Poți s-o găsești parcurgând lista de piese disponibile din acest ecran. Vezi cum funcționează pentru a adăuga ceva cod personalizat pe situl tău!"
 
-#: wp-includes/widgets/class-wp-widget-text.php:495
+#: wp-includes/widgets/class-wp-widget-text.php:496
 msgid "Did you know there is a &#8220;Custom HTML&#8221; widget now? You can find it by pressing the &#8220;<a class=\"add-widget\" href=\"#\">Add a Widget</a>&#8221; button and searching for &#8220;HTML&#8221;. Check it out to add some custom code to your site!"
 msgstr "Știai că există acum o nouă piesă &#8222;HTML personalizat&#8221;? Poți s-o găsești apăsând pe butonul &#8222;<a class=\"add-widget\" href=\"#\">Adaugă o piesă</a>&#8221; și căutând după  &#8222;HTML&#8221;. Vezi cum funcționează pentru a adăuga ceva cod personalizat pe situl tău!"
 
-#: wp-includes/widgets/class-wp-widget-text.php:493
+#: wp-includes/widgets/class-wp-widget-text.php:494
 msgid "New Custom HTML Widget"
 msgstr "Piesă nouă HTML personalizat"
 
-#: wp-includes/widgets/class-wp-widget-text.php:458
+#: wp-includes/widgets/class-wp-widget-text.php:459
 msgid "This widget may contain code that may work better in the &#8220;Custom HTML&#8221; widget. How about trying that widget instead?"
 msgstr "Această piesă poate conține cod ce ar putea funcționa mai bine în piesa &#8222;HTML personalizat&#8221;. Ce-ar fi să încerci s-o folosești?"
 
@@ -2293,7 +2304,7 @@ msgstr "Ascunde comenzile"
 msgid "Document Preview"
 msgstr "Previzualizare document"
 
-#: wp-includes/class-wp-customize-manager.php:4963
+#: wp-includes/class-wp-customize-manager.php:4983
 msgid "Header Media"
 msgstr "Media de antet"
 
@@ -2327,7 +2338,7 @@ msgstr "Text asociat HTML pentru atașament, transformat pentru afișare."
 msgid "Caption for the attachment, as it exists in the database."
 msgstr "Text asociat pentru atașament, așa cum există el în baza de date."
 
-#: wp-includes/class-wp-customize-manager.php:5625
+#: wp-includes/class-wp-customize-manager.php:5645
 msgid "Please enter a valid YouTube URL."
 msgstr "Te rog introdu un URL YouTube valid."
 
@@ -2364,7 +2375,7 @@ msgstr "Articolul nu poate fi aruncat la gunoi. Setează „%s” pentru a șter
 msgid "The comment does not support trashing. Set '%s' to delete."
 msgstr "Comentariul nu poate fi aruncat la gunoi. Setează „%s” pentru a șterge."
 
-#: wp-includes/class-wp-customize-manager.php:5048
+#: wp-includes/class-wp-customize-manager.php:5068
 msgid "Or, enter a YouTube URL:"
 msgstr "Sau introdu un URL YouTube:"
 
@@ -2418,7 +2429,7 @@ msgstr "Regret, trackback-urile sunt închise pentru acest element."
 msgid "I really need an ID for this to work."
 msgstr "Chiar am nevoie de un ID pentru ca aceasta să funcționeze."
 
-#: wp-includes/class-wp-customize-manager.php:5208
+#: wp-includes/class-wp-customize-manager.php:5228
 msgid "Homepage"
 msgstr "Prima pagină"
 
@@ -3433,122 +3444,122 @@ msgid "Post"
 msgstr "Articol"
 
 #. translators: 1: .mp4, 2: .mov
-#: wp-includes/class-wp-customize-manager.php:5601
+#: wp-includes/class-wp-customize-manager.php:5621
 msgid "Only %1$s or %2$s files may be used for header video. Please convert your video file and try again, or, upload your video to YouTube and link it with the option below."
 msgstr "Numai fișierele %1$s sau %2$s pot fi folosite pentru video de antet. Te rog convertește fișierul tău video și încearcă din nou sau încarcă-ți videoul pe YouTube și leagă-l cu opțiunea de mai jos."
 
-#: wp-includes/class-wp-customize-manager.php:5595
+#: wp-includes/class-wp-customize-manager.php:5615
 msgid "This video file is too large to use as a header video. Try a shorter video or optimize the compression settings and re-upload a file that is less than 8MB. Or, upload your video to YouTube and link it with the option below."
 msgstr "Acest fișier video este prea mare pentru a-l folosi ca video de antet. Încearcă un video mai scurt sau optimizează setările de compresie și reîncarcă un fișier care este mai mic de 8 MO. Sau încarcă-ți videoul pe YouTube și leagă-l cu opțiunea de mai jos."
 
-#: wp-includes/class-wp-customize-manager.php:5555
+#: wp-includes/class-wp-customize-manager.php:5575
 msgid "Unrecognized background setting."
 msgstr "Setare fundal nerecunoscută."
 
-#: wp-includes/class-wp-customize-manager.php:5546
-#: wp-includes/class-wp-customize-manager.php:5550
+#: wp-includes/class-wp-customize-manager.php:5566
+#: wp-includes/class-wp-customize-manager.php:5570
 msgid "Invalid value for background size."
 msgstr "Valoare invalidă pentru dimensiune fundal."
 
-#: wp-includes/class-wp-customize-manager.php:5542
+#: wp-includes/class-wp-customize-manager.php:5562
 msgid "Invalid value for background position Y."
 msgstr "Valoare invalidă pentru poziția Y fundal."
 
-#: wp-includes/class-wp-customize-manager.php:5538
+#: wp-includes/class-wp-customize-manager.php:5558
 msgid "Invalid value for background position X."
 msgstr "Valoare invalidă pentru poziția X fundal."
 
-#: wp-includes/class-wp-customize-manager.php:5534
+#: wp-includes/class-wp-customize-manager.php:5554
 msgid "Invalid value for background attachment."
 msgstr "Valoare invalidă pentru atașament fundal."
 
-#: wp-includes/class-wp-customize-manager.php:5530
+#: wp-includes/class-wp-customize-manager.php:5550
 msgid "Invalid value for background repeat."
 msgstr "Valoare invalidă pentru repetare fundal."
 
 #. translators: accessibility text
-#: wp-includes/class-wp-customize-manager.php:4162
-#: wp-includes/class-wp-customize-manager.php:5234
+#: wp-includes/class-wp-customize-manager.php:4181
 #: wp-includes/class-wp-customize-manager.php:5254
+#: wp-includes/class-wp-customize-manager.php:5274
 #: wp-includes/customize/class-wp-customize-nav-menu-locations-control.php:56
 #: wp-includes/widgets/class-wp-widget-custom-html.php:304
 msgid "(opens in a new window)"
 msgstr "(se deschide într-o fereastră nouă)"
 
-#: wp-includes/class-wp-customize-manager.php:5232
+#: wp-includes/class-wp-customize-manager.php:5252
 msgid "Learn more about CSS"
 msgstr "Află mai multe despre CSS"
 
-#: wp-includes/class-wp-customize-manager.php:5265
+#: wp-includes/class-wp-customize-manager.php:5285
 msgid "Additional CSS"
 msgstr "CSS suplimentar"
 
-#: wp-includes/class-wp-customize-manager.php:5159
+#: wp-includes/class-wp-customize-manager.php:5179
 msgid "Scroll with Page"
 msgstr "Derulează cu pagină"
 
-#: wp-includes/class-wp-customize-manager.php:5147
+#: wp-includes/class-wp-customize-manager.php:5167
 msgid "Repeat Background Image"
 msgstr "Repetă imagine fundal"
 
-#: wp-includes/class-wp-customize-manager.php:5134
+#: wp-includes/class-wp-customize-manager.php:5154
 msgid "Original"
 msgstr "Original"
 
-#: wp-includes/class-wp-customize-manager.php:5130
+#: wp-includes/class-wp-customize-manager.php:5150
 msgid "Image Size"
 msgstr "Dimensiune imagine"
 
-#: wp-includes/class-wp-customize-manager.php:5115
+#: wp-includes/class-wp-customize-manager.php:5135
 #: wp-includes/customize/class-wp-customize-background-position-control.php:66
 msgid "Image Position"
 msgstr "Poziție imagine"
 
-#: wp-includes/class-wp-customize-manager.php:5098
+#: wp-includes/class-wp-customize-manager.php:5118
 msgctxt "Custom Preset"
 msgid "Custom"
 msgstr "Personalizat"
 
-#: wp-includes/class-wp-customize-manager.php:5097
+#: wp-includes/class-wp-customize-manager.php:5117
 msgctxt "Repeat Image"
 msgid "Repeat"
 msgstr "Repetă"
 
-#: wp-includes/class-wp-customize-manager.php:5096
-#: wp-includes/class-wp-customize-manager.php:5135
+#: wp-includes/class-wp-customize-manager.php:5116
+#: wp-includes/class-wp-customize-manager.php:5155
 msgid "Fit to Screen"
 msgstr "Încadrat în ecran"
 
-#: wp-includes/class-wp-customize-manager.php:5094
+#: wp-includes/class-wp-customize-manager.php:5114
 msgctxt "Default Preset"
 msgid "Default"
 msgstr "Implicit"
 
-#: wp-includes/class-wp-customize-manager.php:5090
+#: wp-includes/class-wp-customize-manager.php:5110
 msgctxt "Background Preset"
 msgid "Preset"
 msgstr "Presetat"
 
-#: wp-includes/class-wp-customize-manager.php:5038
+#: wp-includes/class-wp-customize-manager.php:5058
 msgid "Header Video"
 msgstr "Video de antet"
 
 #. translators: 1: .mp4, 2: header height in pixels
-#: wp-includes/class-wp-customize-manager.php:4985
+#: wp-includes/class-wp-customize-manager.php:5005
 msgid "Upload your video in %1$s format and minimize its file size for best results. Your theme recommends a height of %2$s pixels."
 msgstr "Încarcă-ți videoul în format %1$s și minimizează-i dimensiunea pentru cele mai bune rezultate. Tema ta recomandă o înălțime de %2$s pixeli."
 
 #. translators: 1: .mp4, 2: header width in pixels
-#: wp-includes/class-wp-customize-manager.php:4978
+#: wp-includes/class-wp-customize-manager.php:4998
 msgid "Upload your video in %1$s format and minimize its file size for best results. Your theme recommends a width of %2$s pixels."
 msgstr "Încarcă-ți videoul în format %1$s și minimizează-i dimensiunea pentru cele mai bune rezultate. Tema ta recomandă o lățime de %2$s pixeli."
 
 #. translators: 1: .mp4, 2: header size in pixels
-#: wp-includes/class-wp-customize-manager.php:4971
+#: wp-includes/class-wp-customize-manager.php:4991
 msgid "Upload your video in %1$s format and minimize its file size for best results. Your theme recommends dimensions of %2$s pixels."
 msgstr "Încarcă-ți videoul în format %1$s și minimizează-i dimensiunea pentru cele mai bune rezultate. Tema ta recomandă dimensiuni de %2$s pixeli."
 
-#: wp-includes/class-wp-customize-manager.php:4964
+#: wp-includes/class-wp-customize-manager.php:4984
 msgid "If you add a video, the image will be used as a fallback while the video loads."
 msgstr "Dacă adaugi un video, imaginea va fi folosită ca soluție de rezervă în timp ce videoul se încarcă."
 
@@ -3560,43 +3571,43 @@ msgid "Search themes&hellip;"
 msgstr "Caut teme&hellip;"
 
 #. translators: %s: theme name
-#: wp-includes/class-wp-customize-manager.php:4670
+#: wp-includes/class-wp-customize-manager.php:4690
 msgid "Showing details for theme: %s"
 msgstr "Arăt detalii pentru tema: %s"
 
 #. translators: %d: number of themes being displayed, which cannot currently
 #. consider singular vs. plural forms
-#: wp-includes/class-wp-customize-manager.php:4668
+#: wp-includes/class-wp-customize-manager.php:4688
 msgid "Displaying %d themes"
 msgstr "Afișez %d teme"
 
 #. translators: %d: number of theme search results, which cannot currently
 #. consider singular vs. plural forms
-#: wp-includes/class-wp-customize-manager.php:4666
+#: wp-includes/class-wp-customize-manager.php:4686
 msgid "%d themes found"
 msgstr "%d teme găsite"
 
-#: wp-includes/class-wp-customize-manager.php:4664
+#: wp-includes/class-wp-customize-manager.php:4684
 msgid "Are you sure you want to delete this theme?"
 msgstr "Sigur vrei să ștergi această temă?"
 
-#: wp-includes/class-wp-customize-manager.php:2272
+#: wp-includes/class-wp-customize-manager.php:2277
 msgid "Unauthorized to modify setting due to capability."
 msgstr "Neautorizat pentru a modifica setarea datorită capabilității."
 
-#: wp-includes/class-wp-customize-manager.php:2267
+#: wp-includes/class-wp-customize-manager.php:2272
 msgid "Setting does not exist or is unrecognized."
 msgstr "Setarea nu există sau este nerecunoscută."
 
-#: wp-includes/class-wp-customize-manager.php:2060
+#: wp-includes/class-wp-customize-manager.php:2065
 msgid "This form is not live-previewable."
 msgstr "Formularul nu este previzualizabil live."
 
-#: wp-includes/class-wp-customize-manager.php:2059
+#: wp-includes/class-wp-customize-manager.php:2064
 msgid "This link is not live-previewable."
 msgstr "Legătura nu este previzualizabilă live."
 
-#: wp-includes/class-wp-customize-manager.php:1844
+#: wp-includes/class-wp-customize-manager.php:1849
 msgid "Unauthorized. You may remove the customize_messenger_channel param to preview as frontend."
 msgstr "Neautorizat. Poți înlătura parametrul customize_messenger_channel pentru a previzualiza ca partea din față a sitului."
 
@@ -3974,7 +3985,7 @@ msgstr "Regret, nu ai voie să adăugi o categorie."
 msgid "Sorry, you are not allowed to list users."
 msgstr "Regret, nu ai voie să listezi utilizatori."
 
-#: wp-includes/class-wp-customize-manager.php:2295
+#: wp-includes/class-wp-customize-manager.php:2300
 #: wp-includes/class-wp-customize-setting.php:579
 #: wp-includes/script-loader.php:606
 msgid "Invalid value."
@@ -4052,7 +4063,7 @@ msgstr "Constanta %1$s <strong>e învechită</strong>. Folosește constanta bool
 
 #. translators: 1: panel id, 2: link to 'customize_loaded_components' filter
 #. reference
-#: wp-includes/class-wp-customize-manager.php:3737
+#: wp-includes/class-wp-customize-manager.php:3742
 msgid "Removing %1$s manually will cause PHP warnings. Use the %2$s filter instead."
 msgstr "Eliminarea manuală a %1$s va provoca avertismente PHP. Folosește în schimb filtrul %2$s."
 
@@ -4162,20 +4173,20 @@ msgstr "Închide dialog"
 msgid "The called constructor method for %1$s in %2$s is <strong>deprecated</strong> since version %3$s! Use %4$s instead."
 msgstr "Metoda constructor apelată pentru %1$s în %2$s este <strong>învechită</strong> de la versiunea %3$s! Folosește în schimb %4$s."
 
-#: wp-includes/class-wp-customize-manager.php:4904
+#: wp-includes/class-wp-customize-manager.php:4924
 msgid "Choose logo"
 msgstr "Alegere logo"
 
-#: wp-includes/class-wp-customize-manager.php:4902
+#: wp-includes/class-wp-customize-manager.php:4922
 msgid "No logo selected"
 msgstr "Niciun logo selectat"
 
-#: wp-includes/class-wp-customize-manager.php:4899
+#: wp-includes/class-wp-customize-manager.php:4919
 msgid "Change logo"
 msgstr "Modifică logo"
 
-#: wp-includes/class-wp-customize-manager.php:4898
-#: wp-includes/class-wp-customize-manager.php:4903
+#: wp-includes/class-wp-customize-manager.php:4918
+#: wp-includes/class-wp-customize-manager.php:4923
 msgid "Select logo"
 msgstr "Selectează logo"
 
@@ -4237,28 +4248,28 @@ msgstr "Tip de obiect invalid"
 msgid "Paste URL or type to search"
 msgstr "Lipește URL-ul sau tastează-l pentru căutare"
 
-#: wp-includes/class-wp-customize-manager.php:4890
+#: wp-includes/class-wp-customize-manager.php:4910
 msgid "Logo"
 msgstr "Logo"
 
-#: wp-includes/class-wp-customize-manager.php:4856
-#: wp-includes/class-wp-customize-manager.php:4934
+#: wp-includes/class-wp-customize-manager.php:4876
+#: wp-includes/class-wp-customize-manager.php:4954
 msgid "Display Site Title and Tagline"
 msgstr "Afișează titlul sitului și sloganul"
 
-#: wp-includes/class-wp-customize-manager.php:4757
+#: wp-includes/class-wp-customize-manager.php:4777
 msgid "Enter mobile preview mode"
 msgstr "Intră în modul de previzualizare pentru mobile"
 
-#: wp-includes/class-wp-customize-manager.php:4754
+#: wp-includes/class-wp-customize-manager.php:4774
 msgid "Enter tablet preview mode"
 msgstr "Intră în modul de previzualizare pentru tabletă"
 
-#: wp-includes/class-wp-customize-manager.php:4750
+#: wp-includes/class-wp-customize-manager.php:4770
 msgid "Enter desktop preview mode"
 msgstr "Intră în modul de previzualizare pentru desktop"
 
-#: wp-includes/class-wp-customize-manager.php:2058
+#: wp-includes/class-wp-customize-manager.php:2063
 #: wp-includes/customize/class-wp-customize-selective-refresh.php:192
 msgid "Shift-click to edit this element."
 msgstr "Apasă shift-clic pentru a edita acest element."
@@ -4919,7 +4930,7 @@ msgid "Press return or enter to open this section"
 msgstr "Apasă return sau enter pentru a deschide această secțiune"
 
 #. translators: %s: document title from the preview
-#: wp-includes/class-wp-customize-manager.php:4335
+#: wp-includes/class-wp-customize-manager.php:4354
 msgid "Live Preview: %s"
 msgstr "Previzualizare live: %s"
 
@@ -5067,11 +5078,11 @@ msgstr "Ascunde imaginea"
 msgid "Hide header image"
 msgstr "Ascunde imaginea antet"
 
-#: wp-includes/class-wp-customize-manager.php:4870
+#: wp-includes/class-wp-customize-manager.php:4890
 msgid "Site Icon"
 msgstr "Icon sit"
 
-#: wp-includes/class-wp-customize-manager.php:4821
+#: wp-includes/class-wp-customize-manager.php:4841
 msgid "Site Identity"
 msgstr "Identitate sit"
 
@@ -5157,7 +5168,7 @@ msgctxt "Missing menu name."
 msgid "(unnamed)"
 msgstr "(fără nume)"
 
-#: wp-includes/customize/class-wp-customize-nav-menu-control.php:49
+#: wp-includes/customize/class-wp-customize-nav-menu-control.php:58
 msgid "When in reorder mode, additional controls to reorder menu items will be available in the items list above."
 msgstr "Când ești în modul reordonare, vor fi disponibile comenzi suplimentare pentru rearanjarea elementelor de meniu din lista de elemente de mai sus."
 
@@ -5166,11 +5177,11 @@ msgid "Close reorder mode"
 msgstr "Închide modul de reordonare"
 
 #: wp-includes/class-wp-customize-nav-menus.php:440
-#: wp-includes/customize/class-wp-customize-nav-menu-control.php:44
+#: wp-includes/customize/class-wp-customize-nav-menu-control.php:53
 msgid "Reorder menu items"
 msgstr "Reordonează elementele de meniu"
 
-#: wp-includes/customize/class-wp-customize-nav-menu-control.php:41
+#: wp-includes/customize/class-wp-customize-nav-menu-control.php:50
 msgid "Add or remove menu items"
 msgstr "Adaugă sau elimină elemente de meniu"
 
@@ -5346,8 +5357,8 @@ msgid "'tain't,'twere,'twas,'tis,'twill,'til,'bout,'nuff,'round,'cause,'em"
 msgstr ",,,,,,,,,,"
 
 #: wp-includes/widgets/class-wp-widget-custom-html.php:258
-#: wp-includes/widgets/class-wp-widget-text.php:464
-#: wp-includes/widgets/class-wp-widget-text.php:525
+#: wp-includes/widgets/class-wp-widget-text.php:465
+#: wp-includes/widgets/class-wp-widget-text.php:526
 msgid "Content:"
 msgstr "Conținut:"
 
@@ -5601,7 +5612,7 @@ msgstr "Locație meniu"
 msgid "Delete Menu"
 msgstr "Șterge meniu"
 
-#: wp-includes/customize/class-wp-customize-nav-menu-control.php:42
+#: wp-includes/customize/class-wp-customize-nav-menu-control.php:38
 msgid "Add Items"
 msgstr "Adaugă elemente"
 
@@ -6393,8 +6404,8 @@ msgstr "Acum personalizezi %s"
 msgid "<strong>ERROR</strong>: The comment could not be saved. Please try again later."
 msgstr "<strong>EROARE</strong>: Comentariul nu a putut fi salvat. Te rog încearcă din nou mai târziu."
 
-#: wp-includes/update.php:154 wp-includes/update.php:346
-#: wp-includes/update.php:524
+#: wp-includes/update.php:154 wp-includes/update.php:356
+#: wp-includes/update.php:538
 msgid "(WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.)"
 msgstr "(WordPress nu a reușit să stabilească o conexiune securizată la WordPress.org. Te rog contactează administratorul serverului.)"
 
@@ -7194,7 +7205,7 @@ msgstr "Mută mai sus"
 msgid "Move down"
 msgstr "Mută mai jos"
 
-#: wp-includes/customize/class-wp-customize-nav-menu-control.php:45
+#: wp-includes/customize/class-wp-customize-nav-menu-control.php:54
 #: wp-includes/customize/class-wp-widget-area-customize-control.php:60
 msgid "Reorder"
 msgstr "Rearanjează"
@@ -7243,7 +7254,7 @@ msgid "https://wordpress.org/support/forum/requests-and-feedback"
 msgstr "https://ro.forums.wordpress.org/forum/critici"
 
 #: wp-includes/admin-bar.php:164 wp-includes/update.php:153
-#: wp-includes/update.php:345 wp-includes/update.php:523
+#: wp-includes/update.php:355 wp-includes/update.php:537
 #: wp-includes/wp-db.php:1062 wp-includes/wp-db.php:1595
 #: wp-includes/wp-db.php:1753 wp-login.php:882
 msgid "https://wordpress.org/support/"
@@ -7355,8 +7366,8 @@ msgid "on"
 msgstr "on"
 
 #. translators: %s: support forums URL
-#: wp-includes/update.php:152 wp-includes/update.php:344
-#: wp-includes/update.php:522
+#: wp-includes/update.php:152 wp-includes/update.php:354
+#: wp-includes/update.php:536
 msgid "An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href=\"%s\">support forums</a>."
 msgstr "A apărut o eroare neașteptată. S-ar putea să fie o problemă cu WordPress.org sau cu configurația acestui server. Dacă în continuare ai probleme, te rugăm să apelezi la <a href=\"%s\">forumurile de ajutor</a>."
 
@@ -7391,7 +7402,7 @@ msgstr "Implicit"
 msgid "Menu"
 msgstr "Meniu"
 
-#: wp-includes/update.php:629
+#: wp-includes/update.php:643
 msgid "Translation Updates"
 msgstr "Actualizări traducere"
 
@@ -8061,11 +8072,11 @@ msgstr "Text"
 msgid "Skip to toolbar"
 msgstr "Sari la bara de unelte"
 
-#: wp-includes/class-wp-customize-manager.php:4941
+#: wp-includes/class-wp-customize-manager.php:4961
 msgid "Header Text Color"
 msgstr "Culoare text antet"
 
-#: wp-includes/class-wp-customize-manager.php:4918
+#: wp-includes/class-wp-customize-manager.php:4938
 msgid "Colors"
 msgstr "Culori"
 
@@ -8099,7 +8110,7 @@ msgstr "Regret, nu poți evidenția un articol privat."
 msgid "Sorry, you are not allowed to publish this page."
 msgstr "Regret, nu ai voie să publici această pagină."
 
-#: wp-includes/class-wp-customize-manager.php:4991
+#: wp-includes/class-wp-customize-manager.php:5011
 #: wp-includes/customize/class-wp-customize-header-image-control.php:31
 msgid "Header Image"
 msgstr "Imagine antet"
@@ -8144,16 +8155,16 @@ msgstr[0] "Numele sitului trebuie să aibă de cel puțin %s caracter."
 msgstr[1] "Numele sitului trebuie să aibă de cel puțin %s caractere."
 msgstr[2] "Numele sitului trebuie să aibă de cel puțin %s de caractere."
 
-#: wp-includes/class-wp-customize-manager.php:5198
+#: wp-includes/class-wp-customize-manager.php:5218
 msgid "A static page"
 msgstr "O pagină statică"
 
-#: wp-includes/class-wp-customize-manager.php:5065
+#: wp-includes/class-wp-customize-manager.php:5085
 #: wp-includes/customize/class-wp-customize-background-image-control.php:30
 msgid "Background Image"
 msgstr "Imagine fundal"
 
-#: wp-includes/class-wp-customize-manager.php:4956
+#: wp-includes/class-wp-customize-manager.php:4976
 msgid "Background Color"
 msgstr "Culoare fundal"
 
@@ -8169,7 +8180,7 @@ msgstr "Înlătură imaginea"
 msgid "Sorry, you are not allowed to edit this comment."
 msgstr "Regret, nu ai voie să editezi acest comentariu."
 
-#: wp-includes/class-wp-customize-manager.php:5220
+#: wp-includes/class-wp-customize-manager.php:5240
 msgid "Posts page"
 msgstr "Pagină articole"
 
@@ -8177,7 +8188,7 @@ msgstr "Pagină articole"
 msgid "Allowed Files"
 msgstr "Fișiere permise"
 
-#: wp-includes/class-wp-customize-manager.php:4900
+#: wp-includes/class-wp-customize-manager.php:4920
 #: wp-includes/class-wp-customize-widgets.php:753
 #: wp-includes/class-wp-editor.php:1258
 #: wp-includes/customize/class-wp-customize-media-control.php:226
@@ -8297,7 +8308,7 @@ msgid "ERROR: The themes directory is either empty or doesn&#8217;t exist. Pleas
 msgstr "EROARE: Directorul de teme fie este gol ori nu există. Te rog verifică-ți instalarea."
 
 #. translators: %s: document title from the preview
-#: wp-includes/class-wp-customize-manager.php:4332
+#: wp-includes/class-wp-customize-manager.php:4351
 msgid "Customize: %s"
 msgstr "Personalizează: %s"
 
@@ -8307,11 +8318,11 @@ msgstr "Personalizează: %s"
 msgid "&mdash; Select &mdash;"
 msgstr "&mdash; Selectează &mdash;"
 
-#: wp-includes/class-wp-customize-manager.php:4843
+#: wp-includes/class-wp-customize-manager.php:4863
 msgid "Tagline"
 msgstr "Slogan"
 
-#: wp-includes/class-wp-customize-manager.php:5197
+#: wp-includes/class-wp-customize-manager.php:5217
 msgid "Your latest posts"
 msgstr "Ultimele tale articole"
 
@@ -8482,7 +8493,7 @@ msgstr "Creează un fișier de configurare"
 msgid "You can create a %s file through a web interface, but this doesn't work for all server setups. The safest way is to manually create the file."
 msgstr "Poți crea un fișier %s printr-o interfață web, dar asta nu funcționează pentru toate configurațiile de server. Cea mai sigură cale este să creezi manual fișierul."
 
-#: wp-includes/class-wp-customize-manager.php:5231
+#: wp-includes/class-wp-customize-manager.php:5251
 msgid "https://codex.wordpress.org/CSS"
 msgstr "https://codex.wordpress.org/CSS"
 
@@ -9449,7 +9460,7 @@ msgid "This is the short link."
 msgstr "Aceasta este legătura scurtă."
 
 #. translators: 1: Number of updates available to plugins
-#: wp-includes/update.php:622
+#: wp-includes/update.php:636
 msgid "%d Plugin Update"
 msgid_plural "%d Plugin Updates"
 msgstr[0] "%d actualizare modul"
@@ -9457,7 +9468,7 @@ msgstr[1] "%d actualizări module"
 msgstr[2] "%d de actualizări module"
 
 #. translators: 1: Number of updates available to themes
-#: wp-includes/update.php:626
+#: wp-includes/update.php:640
 msgid "%d Theme Update"
 msgid_plural "%d Theme Updates"
 msgstr[0] "%d actualizare temă"
@@ -9465,7 +9476,7 @@ msgstr[1] "%d actualizări teme"
 msgstr[2] "%d de actualizări teme"
 
 #. translators: 1: Number of updates available to WordPress
-#: wp-includes/update.php:618
+#: wp-includes/update.php:632
 msgid "%d WordPress Update"
 msgstr "%d actualizare WordPress"
 
@@ -10454,8 +10465,8 @@ msgstr "Flux comentarii"
 msgid "Insert Page Break tag"
 msgstr "Inserează tagul de terminare pagină"
 
-#: wp-includes/class-wp-customize-manager.php:5095
-#: wp-includes/class-wp-customize-manager.php:5136
+#: wp-includes/class-wp-customize-manager.php:5115
+#: wp-includes/class-wp-customize-manager.php:5156
 msgid "Fill Screen"
 msgstr "Completează ecran"
 
@@ -10592,7 +10603,7 @@ msgstr "Document nou"
 msgid "Paste"
 msgstr "Lipește"
 
-#: wp-includes/class-wp-customize-manager.php:4165
+#: wp-includes/class-wp-customize-manager.php:4184
 #: wp-includes/class-wp-editor.php:1045
 msgid "Copy"
 msgstr "Copiază"
@@ -11200,7 +11211,7 @@ msgstr "Afișează ierarhic"
 msgid "Select Category"
 msgstr "Selectează o categorie"
 
-#: wp-includes/widgets/class-wp-widget-text.php:468
+#: wp-includes/widgets/class-wp-widget-text.php:469
 msgid "Automatically add paragraphs"
 msgstr "Adaugă automat paragrafe"
 
@@ -11482,8 +11493,8 @@ msgstr "Separă etichetele cu virgulă"
 #: wp-includes/widgets/class-wp-widget-recent-posts.php:135
 #: wp-includes/widgets/class-wp-widget-search.php:70
 #: wp-includes/widgets/class-wp-widget-tag-cloud.php:126
-#: wp-includes/widgets/class-wp-widget-text.php:453
-#: wp-includes/widgets/class-wp-widget-text.php:486
+#: wp-includes/widgets/class-wp-widget-text.php:454
+#: wp-includes/widgets/class-wp-widget-text.php:487
 msgid "Title:"
 msgstr "Titlu:"
 
@@ -11491,7 +11502,7 @@ msgstr "Titlu:"
 msgid "Plugin:"
 msgstr "Modul:"
 
-#: wp-includes/class-wp-customize-manager.php:4901
+#: wp-includes/class-wp-customize-manager.php:4921
 #: wp-includes/customize/class-wp-customize-color-control.php:51
 #: wp-includes/customize/class-wp-customize-media-control.php:225
 #: wp-includes/customize/class-wp-customize-media-control.php:235
@@ -11522,7 +11533,7 @@ msgstr "Permite vizitatorilor să scrie comentarii la noile articole"
 msgid "Email"
 msgstr "Email"
 
-#: wp-includes/class-wp-customize-manager.php:4832
+#: wp-includes/class-wp-customize-manager.php:4852
 #: wp-includes/class-wp-xmlrpc-server.php:540
 msgid "Site Title"
 msgstr "Titlu sit"
@@ -11669,7 +11680,7 @@ msgstr "Pagină nouă"
 msgid "Select"
 msgstr "Selectează"
 
-#: wp-includes/class-wp-customize-manager.php:5261
+#: wp-includes/class-wp-customize-manager.php:5281
 #: wp-includes/class-wp-editor.php:1053 wp-includes/class-wp-editor.php:1695
 #: wp-includes/script-loader.php:277 wp-includes/script-loader.php:371
 #: wp-includes/script-loader.php:562 wp-includes/script-loader.php:1125
@@ -11710,10 +11721,10 @@ msgstr "Imagini"
 msgid "Search"
 msgstr "Caută"
 
-#: wp-includes/class-wp-customize-manager.php:4090
+#: wp-includes/class-wp-customize-manager.php:4111
 #: wp-includes/script-loader.php:146 wp-includes/script-loader.php:307
-#: wp-includes/widgets/class-wp-widget-text.php:500
-#: wp-includes/widgets/class-wp-widget-text.php:515
+#: wp-includes/widgets/class-wp-widget-text.php:501
+#: wp-includes/widgets/class-wp-widget-text.php:516
 msgid "Dismiss"
 msgstr "Respinge"
 
@@ -11895,7 +11906,7 @@ msgstr "Pingback"
 msgid "Reply"
 msgstr "Răspunde"
 
-#: wp-includes/class-wp-customize-manager.php:4583
+#: wp-includes/class-wp-customize-manager.php:4602
 #: wp-includes/script-loader.php:551 wp-includes/script-loader.php:693
 msgid "Save Draft"
 msgstr "Salvează"
@@ -11923,7 +11934,7 @@ msgstr "Module"
 msgid "Recent Comments"
 msgstr "Comentarii recente"
 
-#: wp-includes/class-wp-customize-manager.php:4119
+#: wp-includes/class-wp-customize-manager.php:4138
 #: wp-includes/class-wp-editor.php:1119 wp-includes/media-template.php:1247
 msgid "Preview"
 msgstr "Previzualizare"
@@ -11936,7 +11947,7 @@ msgstr "RSS"
 msgid "Anonymous"
 msgstr "Anonim"
 
-#: wp-includes/customize/class-wp-customize-nav-menu-control.php:46
+#: wp-includes/customize/class-wp-customize-nav-menu-control.php:55
 #: wp-includes/customize/class-wp-widget-area-customize-control.php:61
 #: wp-includes/script-loader.php:879
 msgid "Done"
@@ -12029,7 +12040,7 @@ msgstr "Revizii"
 msgid "Excerpt"
 msgstr "Rezumat"
 
-#: wp-includes/class-wp-customize-manager.php:4578
+#: wp-includes/class-wp-customize-manager.php:4597
 #: wp-includes/script-loader.php:549 wp-includes/script-loader.php:689
 msgid "Publish"
 msgstr "Publică"

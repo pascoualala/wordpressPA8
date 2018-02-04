@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 4.9.x - Development - Administration package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2017-12-15 20:59:00+0000\n"
+"PO-Revision-Date: 2018-01-22 08:29:34+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -25,6 +25,10 @@ msgstr "1"
 msgctxt "default GMT offset or timezone string"
 msgid "0"
 msgstr "3"
+
+#: wp-admin/customize.php:80
+msgid "This changeset cannot be further modified."
+msgstr "Этот набор изменений больше не может быть изменен."
 
 #: wp-admin/about.php:262
 msgid "Improvements to Roles and Capabilities"
@@ -764,10 +768,6 @@ msgstr "https://ru.wordpress.org/plugins/"
 #: wp-admin/customize.php:72 wp-admin/customize.php:81
 msgid "Customize New Changes"
 msgstr "Настроить новые изменения"
-
-#: wp-admin/customize.php:80
-msgid "This changeset has already been published and cannot be further modified."
-msgstr "Этот набор изменений уже опубликован и не может быть далее изменен."
 
 #: wp-admin/custom-background.php:407 wp-admin/custom-background.php:408
 msgctxt "Background Scroll"
@@ -2662,7 +2662,7 @@ msgid "<a href=\"https://codex.wordpress.org/Managing_Plugins#Plugin_Management\
 msgstr "<a href=\"https://codex.wordpress.org/Managing_Plugins#Plugin_Management\">Документация по управлению плагинами</a>"
 
 #. translators: %s: the option/setting
-#: wp-admin/options.php:198
+#: wp-admin/options.php:200
 msgid "The %s setting is unregistered. Unregistered settings are deprecated. See https://codex.wordpress.org/Settings_API"
 msgstr "Параметр %s не зарегистрирован. Незарегистрированные параметры считаются устаревшими. См. https://codex.wordpress.org/Settings_API"
 
@@ -6231,7 +6231,7 @@ msgid "Delete Site"
 msgstr "Удалить сайт"
 
 #: wp-admin/my-sites.php:54 wp-admin/options-head.php:15
-#: wp-admin/options.php:233
+#: wp-admin/options.php:235
 msgid "Settings saved."
 msgstr "Настройки сохранены."
 
@@ -8482,7 +8482,7 @@ msgstr "Рубрика по умолчанию для публикации по 
 msgid "Update Services"
 msgstr "Сервисы обновления"
 
-#: wp-admin/options.php:247
+#: wp-admin/options.php:249
 msgid "All Settings"
 msgstr "Все настройки"
 
@@ -9141,7 +9141,7 @@ msgid "Unknown action."
 msgstr "Неизвестное действие."
 
 #: wp-admin/includes/template.php:1994 wp-admin/nav-menus.php:659
-#: wp-admin/options.php:294
+#: wp-admin/options.php:296
 msgid "Save Changes"
 msgstr "Сохранить изменения"
 
